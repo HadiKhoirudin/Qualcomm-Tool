@@ -10,7 +10,7 @@ echo.
 echo.                       QUALCOMM UNLOCK TOOL V1.0                   
 echo.  Credit : 
 echo.           - Bjoern Kerler (QUALCOMM FIREHOSE ATTACKER SOURCE CODE)
-echo.           - Hary sulteng  (GSM SULTENG)
+echo.           - Hary Sulteng  (GSM SULTENG)
 echo.           - HadiK IT      (SOFTWARE ENGINEER)
 echo.
 echo.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -114,7 +114,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v1.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_1
 
@@ -149,7 +149,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v1.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_1
 
@@ -184,7 +184,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v1.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_1
 
@@ -219,7 +219,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v1.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_1
 
@@ -254,7 +254,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v1.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_1
 
@@ -289,7 +289,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v1.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_1
 
@@ -324,7 +324,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v1.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_1
 
@@ -359,7 +359,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v1.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_1
 
@@ -394,7 +394,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v2.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_1
 
@@ -429,7 +429,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v2.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_1
 
@@ -464,7 +464,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v2.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_1
 
@@ -573,7 +573,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v1.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_2
 
@@ -608,7 +608,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v1.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_2
 
@@ -643,7 +643,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v1.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_2
 
@@ -678,7 +678,7 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v2.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_2
 
@@ -734,9 +734,9 @@ echo.***                            MENU  VIVO                            ***
 echo.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 echo."||"------------------------------"||"------------------------------"||"
-echo."||" +   [                     ]  "||" +   [                     ]  "||"
+echo."||" +1. [       VIVO Y91      ]  "||" +3. [       VIVO Y95      ]  "||"
 echo."||"------------------------------"||"------------------------------"||"
-echo."||" +   [                     ]  "||" +   [                     ]  "||"
+echo."||" +2. [       VIVO Y93      ]  "||" +4. [     VIVO V11 PRO    ]  "||"
 echo."||"------------------------------"||"------------------------------"||"
 
 echo.+++++++++++++++++++++++++++[ Type 0 To Back ]+++++++++++++++++++++++++++
@@ -757,6 +757,154 @@ GOTO Brand_3
 
 :Vivo_0
 GOTO MainMenu
+
+
+:Vivo_1
+cls
+echo.
+echo.Selected Model           : VIVO Y91
+echo.Operation                : Factory Reset
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_Y91 ) ELSE (GOTO :process_Y91) 
+
+:err_process_Y91
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_Y91
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing Userdata.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\VIVO\prog_emmc_firehose_8937_y91_y93_y95_v11.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\VIVO\prog_emmc_firehose_8937_y91_y93_y95_v11.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+
+
+:Vivo_2
+cls
+echo.
+echo.Selected Model           : VIVO Y93
+echo.Operation                : Factory Reset
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_Y93) ELSE (GOTO :process_Y93) 
+
+:err_process_Y93
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_Y93
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing Userdata.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\VIVO\prog_emmc_firehose_8937_y91_y93_y95_v11.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\VIVO\prog_emmc_firehose_8937_y91_y93_y95_v11.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+
+:Vivo_3
+cls
+echo.
+echo.Selected Model           : VIVO Y95
+echo.Operation                : Factory Reset
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_Y93) ELSE (GOTO :process_Y93) 
+
+:err_process_Y95
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_Y95
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing Userdata.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\VIVO\prog_emmc_firehose_8937_y91_y93_y95_v11.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\VIVO\prog_emmc_firehose_8937_y91_y93_y95_v11.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+
+:Vivo_3
+cls
+echo.
+echo.Selected Model           : VIVO V11 PRO
+echo.Operation                : Factory Reset
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_V11PRO) ELSE (GOTO :process_V11PRO) 
+
+:err_process_V11PRO
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_V11PRO
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing Userdata.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\VIVO\prog_emmc_firehose_8937_y91_y93_y95_v11.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\VIVO\prog_emmc_firehose_8937_y91_y93_y95_v11.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
 
 
 
@@ -925,10 +1073,682 @@ echo.Rebooting Device...
 %~dp2DATA\sleep 10
 %~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_A11_ddr.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
 echo.
-echo Please Press Any Key To Continue...
+echo.
 pause
 GOTO Brand_5
 
+
+:Samsung_2
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A115M
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A115M ) ELSE (GOTO :process_A115M) 
+
+:err_process_A115M
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A115M
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_A11_ddr.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_A11_ddr.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_A11_ddr.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+:Samsung_3
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A115U1
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A115U1 ) ELSE (GOTO :process_A115U1) 
+
+:err_process_A115U1
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A115U1
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_A11_ddr.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_A11_ddr.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_A11_ddr.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+:Samsung_4
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-M115F
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_M115F ) ELSE (GOTO :process_M115F) 
+
+:err_process_M115F
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_M115F
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_A11_ddr.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_A11_ddr.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_A11_ddr.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+
+:Samsung_5
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A705F
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A705F) ELSE (GOTO :process_A705F) 
+
+:err_process_A705F
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A705F
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_firehose_ddr_A705F.elf -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_firehose_ddr_A705F.elf -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_firehose_ddr_A705F.elf -x %~dp2DATA\POWER\boot.xml -memoryname ufs
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+
+
+:Samsung_6
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A015A
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A015A) ELSE (GOTO :process_A015A) 
+
+:err_process_A015A
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A015A
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+
+
+:Samsung_7
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A015AZ
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A015AZ) ELSE (GOTO :process_A015AZ) 
+
+:err_process_A015AZ
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A015AZ
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+
+
+:Samsung_8
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A015F
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A015F) ELSE (GOTO :process_A015F) 
+
+:err_process_A015F
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A015F
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+
+
+:Samsung_9
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A015G
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A015G) ELSE (GOTO :process_A015G) 
+
+:err_process_A015G
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A015G
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+:Samsung_10
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A015M
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A015M) ELSE (GOTO :process_A015M) 
+
+:err_process_A015M
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A015M
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+:Samsung_11
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A015T
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A015T) ELSE (GOTO :process_A015T) 
+
+:err_process_A015T
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A015T
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+:Samsung_12
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A015T1
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A015T1) ELSE (GOTO :process_A015T1) 
+
+:err_process_A015T1
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A015T1
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+
+:Samsung_13
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A015U
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A015U) ELSE (GOTO :process_A015U) 
+
+:err_process_A015U
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A015U
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+:Samsung_14
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A015U1
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A015U1) ELSE (GOTO :process_A015U1) 
+
+:err_process_A015U1
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A015U1
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8937_ddr_A015.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+:Samsung_15
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A015V
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A015V) ELSE (GOTO :process_A015V) 
+
+:err_process_A015U1
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A015U1
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_ddr_A025.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_ddr_A025.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_ddr_A025.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+
+:Samsung_16
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A025F
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A025F) ELSE (GOTO :process_A025F) 
+
+:err_process_A025F
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A025F
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_ddr_A025.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_ddr_A025.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_ddr_A025.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+
+:Samsung_17
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A025G
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A025G) ELSE (GOTO :process_A025G) 
+
+:err_process_A025G
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A025G
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_ddr_A025.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_ddr_A025.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_ddr_A025.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
+
+:Samsung_17
+cls
+echo.
+echo.Selected Model           : SAMSUNG GALAXY A11 SM-A025M
+echo.Operation                : Factory Reset and Remove FRP
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_A025M) ELSE (GOTO :process_A025M) 
+
+:err_process_A025M
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_5
+
+:process_A025M
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.Erasing FRP and Userdata.
+echo.
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_ddr_A025.mbn -e persistent
+echo.
+echo.
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_ddr_A025.mbn -e userdata
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\SAMSUNG\prog_emmc_firehose_8953_ddr_A025.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_5
 
 :: ####################################################################### ::
 :: ############################# XIAOMI MENU ############################# ::
