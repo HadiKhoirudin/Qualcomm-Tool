@@ -3,10 +3,10 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 
 [![image-2022-07-16-114409899.png](https://i.postimg.cc/438z6ydH/image-2022-07-16-114409899.png)](https://postimg.cc/zLgb5JTq)
 
-**Recent supported list :**
+## Recent supported list :
 
-**1. OPPO**
-
+### 1. OPPO
+```
 >. OPPO A33 (CPH 2137)
 
 >. OPPO A53 (CPH 2127)
@@ -28,10 +28,10 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 >. OPPO RENO5 (CPH 2159)
 
 >. OPPO RENO6 (CPH 2235)
+```
 
-
-**2. REALME**
-
+### 2. REALME
+```
 >. REALME 7i (RMX 2103)
 
 >. REALME C15 (RMX 2195)
@@ -39,10 +39,10 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 >. REALME C17 (RMX 2101)
 
 >. REALME 8PRO (RMX 3091)
+```
 
-
-**3. VIVO**
-
+### 3. VIVO
+```
 >. VIVO Y91
 
 >. VIVO Y93
@@ -50,15 +50,15 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 >. VIVO Y95
 
 >. VIVO V11 PRO
+```
 
-
-**4. XIAOMI**
-
+### 4. XIAOMI
+```
 >. XIAOMI REDMI 7
+```
 
-
-**5. SAMSUNG**
-
+### 5. SAMSUNG
+```
 >. SAMSUNG SM-A115F
 
 >. SAMSUNG SM-A115M
@@ -94,4 +94,4 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 >. SAMSUNG SM-A025G
 
 >. SAMSUNG SM-A025M
-
+```
