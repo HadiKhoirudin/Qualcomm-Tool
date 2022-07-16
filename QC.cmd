@@ -481,32 +481,6 @@ GOTO Brand_1
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 :: {###################################################################### ::
 :: ############################# REALME MENU ############################# ::
 :: ####################################################################### ::
@@ -696,32 +670,6 @@ GOTO Brand_2
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 :: {###################################################################### ::
 :: ############################## VIVO MENU ############################## ::
 :: ####################################################################### ::
@@ -774,7 +722,7 @@ echo.
 echo.Error - QCUSB Port Not Detected!
 echo.
 pause
-GOTO Brand_5
+GOTO Brand_3
 
 :process_Y91
 echo.
@@ -792,7 +740,7 @@ echo.Rebooting Device...
 echo.
 echo.
 pause
-GOTO Brand_5
+GOTO Brand_3
 
 
 
@@ -812,7 +760,7 @@ echo.
 echo.Error - QCUSB Port Not Detected!
 echo.
 pause
-GOTO Brand_5
+GOTO Brand_3
 
 :process_Y93
 echo.
@@ -830,7 +778,7 @@ echo.Rebooting Device...
 echo.
 echo.
 pause
-GOTO Brand_5
+GOTO Brand_3
 
 
 
@@ -849,7 +797,7 @@ echo.
 echo.Error - QCUSB Port Not Detected!
 echo.
 pause
-GOTO Brand_5
+GOTO Brand_3
 
 :process_Y95
 echo.
@@ -867,7 +815,7 @@ echo.Rebooting Device...
 echo.
 echo.
 pause
-GOTO Brand_5
+GOTO Brand_3
 
 
 
@@ -886,7 +834,7 @@ echo.
 echo.Error - QCUSB Port Not Detected!
 echo.
 pause
-GOTO Brand_5
+GOTO Brand_3
 
 :process_V11PRO
 echo.
@@ -904,40 +852,13 @@ echo.Rebooting Device...
 echo.
 echo.
 pause
-GOTO Brand_5
+GOTO Brand_3
 
 
 
 :: ####################################################################### ::
 :: ############################## VIVO MENU ############################## ::
 :: ######################################################################} ::
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -960,7 +881,7 @@ echo.***                           MENU  XIAOMI                           ***
 echo.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 echo."||"------------------------------"||"------------------------------"||"
-echo."||" +   [                     ]  "||" +   [                     ]  "||"
+echo."||" +1. [    XIAOMI REDMI 7    ] "||" +   [                     ]  "||"
 echo."||"------------------------------"||"------------------------------"||"
 echo."||" +   [                     ]  "||" +   [                     ]  "||"
 echo."||"------------------------------"||"------------------------------"||"
@@ -984,6 +905,44 @@ GOTO Brand_4
 GOTO MainMenu
 
 
+:Xiaomi_1
+cls
+echo.
+echo.Selected Model           : XIAOMI REDMI 7
+echo.Operation                : Reset
+%~dp2DATA\sleep 10
+for /f "tokens=2*" %%a in ('reg query HKLM\hardware\devicemap\SERIALCOMM /v \Device\*QCUSB* 2^>nul ^| find "REG_SZ" 2^>nul') do set "comPort=%%~b"
+
+IF "%comPort%" == "" (GOTO :err_process_REDMI7) ELSE (GOTO :process_REDMI7) 
+
+:err_process_REDMI7
+echo.
+echo.Error - QCUSB Port Not Detected!
+echo.
+pause
+GOTO Brand_4
+
+:process_REDMI7
+echo.
+echo.Autenticating Device     ...
+%~dp2DATA\sleep 10
+echo.
+echo.Erasing MiCloud FRP...
+%~dp2DATA\sleep 2
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\XIAOMI\prog_emmc_firehose_8953_ddr_redmi7.mbn -b persist %~dp2DATA\DEVICE\XIAOMI\REDMI7\persist.img -memoryname emmc
+%~dp2DATA\sleep 5
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\XIAOMI\prog_emmc_firehose_8953_ddr_redmi7.mbn -b persistbak %~dp2DATA\DEVICE\XIAOMI\REDMI7\persist.img -memoryname emmc
+%~dp2DATA\sleep 5
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\XIAOMI\prog_emmc_firehose_8953_ddr_redmi7.mbn -b config %~dp2DATA\DEVICE\XIAOMI\REDMI7\config.bin -memoryname emmc
+echo.
+echo.
+echo.Rebooting Device...
+%~dp2DATA\sleep 10
+%~dp2DATA\emmcdl -p %comPort% -f %~dp2DATA\LOADER\XIAOMI\prog_emmc_firehose_8953_ddr_redmi7.mbn -x %~dp2DATA\POWER\boot.xml -memoryname emmc
+echo.
+echo.
+pause
+GOTO Brand_4
 
 :: ####################################################################### ::
 :: ############################# XIAOMI MENU ############################# ::
@@ -1753,31 +1712,6 @@ GOTO Brand_5
 :: ####################################################################### ::
 :: ############################# XIAOMI MENU ############################# ::
 :: ######################################################################} ::
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
