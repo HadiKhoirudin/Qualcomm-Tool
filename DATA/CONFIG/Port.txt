@@ -1,0 +1,3 @@
+Version 2.15
+Finding all devices in emergency download mode...
+Qualcomm HS-USB QLoader 9008 (COM10)
