@@ -1,6 +1,6 @@
 @echo off
 
-set Loader=%~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v1.mbn
+set Loader=%~dp2DATA\LOADER\VIVO\prog_emmc_firehose_8937_y91_y93_y95_v11.mbn
 set MemoryName=emmc
 
 cls
@@ -17,11 +17,11 @@ echo.
 echo.Error - QCUSB Port EDL Not Detected!
 echo.
 pause
-call %~dp2DATA\DEVICE\OPPO\menu.cmd
+call %~dp2DATA\DEVICE\VIVO\menu.cmd
 
 :process
 echo.
 echo.Connecting To Device... [OK]
 echo.Configuring Firehose... [OK]
-call %~dp2DATA\RESOURCES\process-oppo.cmd %Loader% %MemoryName%
-call %~dp2DATA\DEVICE\OPPO\menu.cmd
+call %~dp2DATA\RESOURCES\process-vivo.cmd %Loader% %MemoryName%
+call %~dp2DATA\DEVICE\VIVO\menu.cmd

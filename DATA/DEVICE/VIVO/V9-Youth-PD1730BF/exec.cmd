@@ -1,11 +1,11 @@
 @echo off
 
-set Loader=%~dp2DATA\LOADER\VIVO\prog_emmc_firehose_8937_y91_y93_y95_v11.mbn
+set Loader=%~dp2DATA\LOADER\VIVO\prog_emmc_firehose_8953_ddr_vivo_v9_youth.mbn
 set MemoryName=emmc
 
 cls
 echo.
-echo.Selected Model           : VIVO Y93  (PD1818F)
+echo.Selected Model           : VIVO V9 Youth (PD1730BF)
 echo.Operation                : Factory Reset and Remove FRP
 call %~dp2DATA\RESOURCES\loading.cmd
 
