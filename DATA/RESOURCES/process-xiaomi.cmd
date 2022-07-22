@@ -7,7 +7,9 @@
 :: Get Partition Map
 %~dp2DATA\BIN\emmcdl -p %USBComPort% -f %Loader% -gpt -memoryname %MemoryName% >%~dp2DATA\TMP\partition
 %~dp2DATA\BIN\sleep 1
-echo.Configuring Device...   [OK]
+echo.
+%cecho% {0a}Configuring Device...{0f}   [OK]
+echo.
 
 
 
@@ -22,7 +24,8 @@ IF "%result_config%" == "1" (for /F "Tokens=7 skip=1 " %%b in ('findstr /I "conf
 	%~dp2DATA\BIN\sleep 1
 	%~dp2DATA\BIN\emmcdl -p %USBComPort% -f %Loader% -d config %~dp2DATA\DEVICE\XIAOMI\BACKUP\%DateTime%-config.bin -memoryname %MemoryName% >nul
 	%~dp2DATA\BIN\emmcdl -p %USBComPort% -f %Loader% -e config -memoryname %MemoryName% >nul
-	echo.Erasing FRP...          [OK]
+	%cecho% {0a}Erasing FRP...{0f}          [OK]
+	echo.
 )
 
 
@@ -41,6 +44,7 @@ IF "%result_persist%" == "1" (for /F "Tokens=7 " %%d in ('findstr /I "persist" %
 	%~dp2DATA\BIN\emmcdl -p %USBComPort% -f %Loader% -e persist -memoryname %MemoryName% >nul
 	%~dp2DATA\BIN\emmcdl -p %USBComPort% -f %Loader% -e persistbak -memoryname %MemoryName% >nul
 	echo.Erasing MiCloud...      [OK]
+	echo.
 )
 
 
@@ -55,9 +59,10 @@ IF "%result_misc%" == "1" (for /F "Tokens=7 " %%f in ('findstr /I "userdata" %~d
 	 %~dp2DATA\BIN\sleep 1
 	 %~dp2DATA\BIN\emmcdl -p %USBComPort% -f %Loader% -e userdata -memoryname %MemoryName% >nul
 	 echo.Erase Userdata...       [OK]
-) ELSE (
 	echo.
-	echo. Error %MemoryName% damaged!
+) ELSE (
+	%cecho% {04}Error %MemoryName% damaged! {0f}
+	echo.
 )
 
 
@@ -67,7 +72,8 @@ call %~dp2DATA\RESOURCES\cleanup.cmd
 
 
 ::: Done
-echo.Rebooting Device...
+%cecho% {0b}Rebooting Device... {0f}
+echo.
 %~dp2DATA\BIN\emmcdl -p %USBComPort% -f %Loader% -x %~dp2DATA\POWER\boot.xml -memoryname %MemoryName% >nul
 echo.
 echo.

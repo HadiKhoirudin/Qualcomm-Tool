@@ -1,33 +1,31 @@
 @echo off
 
-cls
+set Loader=%~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v2.mbn
+set MemoryName=ufs
+
+call %~dp2DATA\RESOURCES\page.cmd
+
 echo.
 set Select_Menu_Oppo=
 echo.Selected Model           : OPPO RENO6  (CPH 2235)
 echo.Operation                : Factory Reset and Remove FRP
-call %~dp2DATA\BIN\loading.cmd
+call %~dp2DATA\RESOURCES\loading.cmd
+
 call %~dp2DATA\CONFIG\USBPortCOM.cmd
+IF (%USBComPort%) == () (GOTO :err_process) ELSE (GOTO :process) 
 
-IF (%USBComPort%) == () (GOTO :err_process_opporeno5) ELSE (GOTO :process_opporeno5) 
-
-:err_process_opporeno6
+:err_process
 echo.
-echo.Error - QCUSB Port EDL Not Detected!
+%cecho% {04}Error - QCUSB Port EDL Not Detected! {0f}
+echo.
 echo.
 pause
 call %~dp2DATA\DEVICE\OPPO\menu.cmd
 
-:process_opporeno6
+:process
 echo.
-echo.Connecting To Device... [OK]
-echo.Erasing FRP and Userdata.
+%cecho% {0a}Connecting To Device...{0f} [OK]
 echo.
-%~dp2DATA\BIN\emmcdl -p %USBComPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v2.mbn -x %~dp2DATA\DEVICE\OPPO\RENO6-CPH2235\patch.xml -memoryname ufs >nul
-echo.
-echo.
-echo.Rebooting Device...
-%~dp2DATA\BIN\emmcdl -p %USBComPort% -f %~dp2DATA\LOADER\OPPO\prog_firehose_ddr_oppo_v2.mbn -x %~dp2DATA\POWER\boot.xml -memoryname ufs >nul
-echo.
-echo.
-pause
+%cecho% {0b}Configuring Firehose...{0f} [OK]
+call %~dp2DATA\RESOURCES\process-oppo.cmd %Loader% %MemoryName%
 call %~dp2DATA\DEVICE\OPPO\menu.cmd

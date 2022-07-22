@@ -4,12 +4,12 @@
     Rem Get a carriage return character
     set "CR=" & for /f %%a in ('copy /Z "%~f0" nul') do if not defined CR set "CR=%%a"
     rem The progress bar
-    set "fill=[####################]"
+    set "fill=[###################]"
 
 
     echo(
     rem For each character in the fill
-    for /l %%a in (2 1 21) do (
+    for /l %%a in (2 3 21) do (
         rem Calculate the right part of the bar
         set "spaces=!fill:~%%a!"
 

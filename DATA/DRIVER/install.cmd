@@ -7,12 +7,14 @@
 IF DEFINED programfiles(x86) GOTO x64
 
 :x86
+ECHO.
 ECHO Installing 32-bit driver ...
 ECHO Please continue driver installation ...
 %~dp2DATA\BIN\sleep 10
 START /wait %~dp2DATA\DRIVER\QDLoader_HS-USB_x86 /f
 GOTO FINISH
 :x64
+ECHO.
 ECHO Installing 64-bit driver ...
 ECHO Please continue driver installation ...
 %~dp2DATA\BIN\sleep 10
@@ -20,7 +22,7 @@ START /wait %~dp2DATA\DRIVER\QDLoader_HS-USB_x64 /f
 :FINISH
 ECHO.
 ECHO.
-ECHO SUCCESSFULY....
+ECHO DONE ...
 %~dp2DATA\BIN\sleep 5
 call %~dp2QC.cmd
 :: ####################################################################### ::
