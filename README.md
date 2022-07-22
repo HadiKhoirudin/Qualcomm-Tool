@@ -83,3 +83,10 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 + Add automatic patch factory reset for Oppo & Realme device
 + Add some device support and many more...
 ```
+
+## Recent changes list V3.0 RC1 :
+
+```
++ Fix Some Error
++ Custom UI Button & Pagging Menu
+```
