@@ -1,7 +1,7 @@
 # Qualcomm-Tool
 For educational purposes, learn how a batch script can handle emmcdl process.
 
-[![image-2022-07-22-192622145.png](https://i.postimg.cc/63VNx0Kn/image-2022-07-22-192622145.png)](https://postimg.cc/xJdZKLc1)
+[![image-2022-07-24-093430148.png](https://i.postimg.cc/dVKdv3HQ/image-2022-07-24-093430148.png)](https://postimg.cc/qzjgxJHW)
 
 ## Recent supported list :
 
@@ -89,4 +89,11 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 ```
 + Fix Some Error
 + Custom UI Button & Pagging Menu
+```
+
+## Recent changes list V3.0 RC2 :
+
+```
++ Restructure file custom framework
++ already convert to *EXE file program
 ```
