@@ -1,27 +1,57 @@
 @echo off
 
+cls
+set dialog=***                  S E L E C T  O P E R A T I O N                  ***
 call %page%
+Call %button%  5 12 "RESET FACTORY" 48 12 "RESET SAFE DATA" 5 15 "RESET ACCOUNT" 48 15 "RESET EFS  IMEI" 25 18 "      BACK      " # Press
 echo.
-echo.Selected Model           : %Model%
-echo.Operation                : Factory Reset and Remove Existing Account
+echo.
+echo.
+echo.%msgw1%
+echo.%msgw2%
+%getinput% /m %Press% /h 72
 
-call %loading%
-call %qcusb%
-IF (%USBComPort%) == () (GOTO :err_process) ELSE (GOTO :process)
+:: Check for the pressed button 
+echo.
+if %errorlevel%==1 (
 
-:err_process
-echo.
-%cecho% {04}Error - QCUSB Port EDL Not Detected! {0f}
-echo.
-echo.
-pause
-call %Menu%
+:: Set-Up Device Operation
+set Operation=RESET FACTORY
 
-:process
-echo.
-%cecho% {0a}Connecting To Device...{0f} [OK]
-echo.
-%cecho% {0b}Configuring Firehose...{0f} [OK]
+:: Execute
+call %process% %Devices% %Loader% %MemoryName% %Operation%
+)
 
-call %Devices% %Loader% %MemoryName%
+
+if %errorlevel%==2 (
+
+:: Set-Up Device Operation
+set Operation=RESET SAFE DATA
+
+:: Execute
+call %process% %Devices% %Loader% %MemoryName% %Operation%
+)
+
+
+if %errorlevel%==3 (
+
+:: Set-Up Device Operation
+set Operation=RESET ACCOUNT
+
+:: Execute
+call %process% %Devices% %Loader% %MemoryName% %Operation%
+)
+
+
+if %errorlevel%==4 (
+
+:: Set-Up Device Operation
+set Operation=RESET EFS IMEI
+
+:: Execute
+call %process% %Devices% %Loader% %MemoryName% %Operation%
+)
+
+
+if %errorlevel%==5 call %Menu%
 call %Menu%

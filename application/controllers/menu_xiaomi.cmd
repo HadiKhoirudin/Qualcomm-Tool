@@ -1,13 +1,13 @@
 @echo off
 :: Set-Up Controllers - > Models
 set Menu=%menu_xiaomi%
-set Devices=%process-xiaomi%
+set Devices=XIAOMI
 set totalpages=5
 
 :: {###################################################################### ::
 :: ############################# XIAOMI MENU ############################# ::
 :: ####################################################################### ::
-:Menu_Xiaomi_1OF5
+:Menu_Xiaomi_1
 cls
 set dialog=***               X I A O M I   P A G E   1  OF  %totalpages%                  ***
 call %page%
@@ -70,10 +70,10 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 
 
 if %errorlevel%==5 call %main%
-if %errorlevel%==6 goto Menu_Xiaomi_2OF5
-goto Menu_Xiaomi_1OF5
+if %errorlevel%==6 goto Menu_Xiaomi_2
+goto Menu_Xiaomi_1
 
-:Menu_Xiaomi_2OF5
+:Menu_Xiaomi_2
 cls
 set dialog=***               X I A O M I   P A G E   2  OF  %totalpages%                  ***
 call %page%
@@ -134,10 +134,10 @@ set MemoryName=emmc
 call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 )
 
-if %errorlevel%==6 goto Menu_Xiaomi_3OF5
-goto Menu_Xiaomi_2OF5
+if %errorlevel%==6 goto Menu_Xiaomi_3
+goto Menu_Xiaomi_1
 
-:Menu_Xiaomi_3OF5
+:Menu_Xiaomi_3
 cls
 set dialog=***               X I A O M I   P A G E   3  OF  %totalpages%                  ***
 call %page%
@@ -197,11 +197,11 @@ set MemoryName=ufs
 :: Execute
 call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 )
-if %errorlevel%==5 goto Menu_Xiaomi_2OF5
-if %errorlevel%==6 goto Menu_Xiaomi_4OF5
-goto Menu_Xiaomi_3OF5
+if %errorlevel%==5 goto Menu_Xiaomi_2
+if %errorlevel%==6 goto Menu_Xiaomi_4
+goto Menu_Xiaomi_3
 
-:Menu_Xiaomi_4OF5
+:Menu_Xiaomi_4
 cls
 set dialog=***               X I A O M I   P A G E   4  OF  %totalpages%                  ***
 call %page%
@@ -261,12 +261,12 @@ set MemoryName=emmc
 :: Execute
 call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 )
-if %errorlevel%==5 goto Menu_Xiaomi_3OF5
-if %errorlevel%==6 goto Menu_Xiaomi_5OF5
-goto Menu_Xiaomi_4OF5
+if %errorlevel%==5 goto Menu_Xiaomi_3
+if %errorlevel%==6 goto Menu_Xiaomi_5
+goto Menu_Xiaomi_4
 
 
-:Menu_Xiaomi_5OF5
+:Menu_Xiaomi_5
 cls
 set dialog=***               X I A O M I   P A G E   5  OF  %totalpages%                  ***
 call %page%
@@ -315,9 +315,9 @@ set MemoryName=emmc
 call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 )
 
-if %errorlevel%==4 goto Menu_Xiaomi_4OF5
+if %errorlevel%==4 goto Menu_Xiaomi_4
 if %errorlevel%==5 goto Commingsoon
-goto Menu_Xiaomi_5OF5
+goto Menu_Xiaomi_5
 
 
 :Commingsoon
@@ -332,7 +332,7 @@ echo.
 echo.          C  L  I  C  K      T  O      C  O  N  T  I  N  U  E
 
 %getinput% /m %Press% /h 72
-goto Menu_Xiaomi_1OF5
+goto Menu_Xiaomi_1
 
 :: ####################################################################### ::
 :: ############################# XIAOMI MENU ############################# ::

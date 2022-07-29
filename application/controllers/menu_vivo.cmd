@@ -1,7 +1,7 @@
 @echo off
 :: Set-Up Controllers - > Models
 set Menu=%menu_vivo%
-set Devices=%process-vivo%
+set Devices=VIVO
 set totalpages=3
 
 :: {###################################################################### ::

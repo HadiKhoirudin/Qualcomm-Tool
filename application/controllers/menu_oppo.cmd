@@ -1,7 +1,7 @@
 @echo off
 :: Set-Up Controllers - > Models
 set Menu=%menu_oppo%
-set Devices=%process-oppo%
+set Devices=OPPO
 set totalpages=3
 
 :: {###################################################################### ::

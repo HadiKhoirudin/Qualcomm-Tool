@@ -1,7 +1,7 @@
 @echo off
 :: Set-Up Controllers - > Models
 set Menu=%menu_realme%
-set Devices=%process-realme%
+set Devices=REALME
 set totalpages=1
 
 :: {###################################################################### ::

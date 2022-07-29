@@ -2,7 +2,6 @@
 @shift /0
 %batbox% /h 0
 Title %title%
-call %cleanup%
 cls
 echo.
 %cecho% {0f}

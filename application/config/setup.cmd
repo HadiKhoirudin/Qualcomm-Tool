@@ -2,8 +2,8 @@
 @echo off
 @shift /0
 set datetime=%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%%TIME:~0,2%%TIME:~3,2%
-set header=          Q U A L C O M M    T O O L    V 3 . 0    -    R C 2  
-set title=QUALCOMM TOOL V3.0 - RC2
+set header=          Q U A L C O M M    T O O L    V 3 . 0    -    R C 3  
+set title=QUALCOMM TOOL V3.0 - RC3
 set USBComPort=
 
 
@@ -25,6 +25,10 @@ set backup_persist=%~dp2assets\backup\%datetime%-persist.bin
 set backup_persistbak=%~dp2assets\backup\%datetime%-persistbak.bin
 set backup_persistent=%~dp2assets\backup\%datetime%-persistent.bin
 
+
+set backup_efs_fsg=%~dp2assets\backup\%datetime%-efs_fsg.bin
+set backup_efs_modemst1=%~dp2assets\backup\%datetime%-efs_modemst1.bin
+set backup_efs_modemst2=%~dp2assets\backup\%datetime%-efs_modemst2.bin
 
 ::: Set-Up Application
 set cache=%~dp2application\cache
@@ -74,8 +78,9 @@ set menu_samsung=%~dp2application\controllers\menu_samsung.cmd
 
 
 ::: Set-Up Models
-set process-oppo=%~dp2application\models\process-oppo.cmd
-set process-realme=%~dp2application\models\process-realme.cmd
-set process-vivo=%~dp2application\models\process-vivo.cmd
-set process-xiaomi=%~dp2application\models\process-xiaomi.cmd
-set process-samsung=%~dp2application\models\process-samsung.cmd
+set process=%~dp2application\models\process.cmd
+set process-manual=%~dp2application\models\process-manual.cmd
+set process-reset-factory=%~dp2application\models\process-reset-factory.cmd
+set process-reset-safe-data=%~dp2application\models\process-reset-safe-data.cmd
+set process-reset-account=%~dp2application\models\process-reset-account.cmd
+set process-reset-efs-imei=%~dp2application\models\process-efs-imei.cmd

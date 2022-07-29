@@ -1,7 +1,7 @@
 @echo off
 :: Set-Up Controllers - > Models
 set Menu=%menu_samsung%
-set Devices=%process-samsung%
+set Devices=SAMSUNG
 set totalpages=3
 
 :: {###################################################################### ::
