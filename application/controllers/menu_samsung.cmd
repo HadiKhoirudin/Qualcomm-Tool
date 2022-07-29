@@ -2,7 +2,7 @@
 :: Set-Up Controllers - > Models
 set Menu=%menu_samsung%
 set Devices=%process-samsung%
-set totalpages=1
+set totalpages=3
 
 :: {###################################################################### ::
 :: ############################# MENU SAMSUNG ############################ ::
