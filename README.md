@@ -16,8 +16,8 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 +7.  [OPPO F17   (CPH 2095)]
 +8.  [OPPO F19   (CPH 2219)]
 +9.  [OPPO F21 PRO (CPH 2219)]
-+10.  [OPPO RENO 4 OLD SEC 2019]
-+11.  [OPPO RENO 4 NEW SEC 2021]
++10. [OPPO RENO 4 OLD SEC 2019]
++11. [OPPO RENO 4 NEW SEC 2021]
 +12. [OPPO RENO 4 PRO (CPH2109)]
 +13. [OPPO RENO 5 (CPH2159)]
 +14. [OPPO RENO 6(CPH2235)]
@@ -46,13 +46,13 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 +7.  [VIVO Y71     (PD1818E)]
 +8.  [VIVO Y55/L   (PD1510F)]
 +9.  [VIVO Y93     (PD1818F)]
-+10.  [VIVO IQOO UI (PD2023F)]
-+11.  [VIVO Y95 PD1818F]
-+12.  [VIVO Y20 OLD SEC PD2034F]
-+13.  [VIVO Y20 NEW SEC PD2034F]
-+14.  [VIVO V20 NEW SEC PD2039F]
-+15.  [VIVO V21e PD2107F]
-+16.  [VIVO Y50T PD2023E]
++10. [VIVO IQOO UI (PD2023F)]
++11. [VIVO Y95 PD1818F]
++12. [VIVO Y20 OLD SEC PD2034F]
++13. [VIVO Y20 NEW SEC PD2034F]
++14. [VIVO V20 NEW SEC PD2039F]
++15. [VIVO V21e PD2107F]
++16. [VIVO Y50T PD2023E]
 ```
 
 ### 4. XIAOMI -updated
@@ -108,7 +108,8 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 
 ### 6. Password?
 ```
-hadikit
+in my video ... 
+get it on YouTube at HadiK IT Channel.
 ```
 
 ## Recent changes list V2.0 :
@@ -140,4 +141,3 @@ hadikit
 + Added Reset Facotry, Reset Safe Data, Reset Account, Reset IMEI function
 + Added Manual Loader / Programming function
 ```
-
