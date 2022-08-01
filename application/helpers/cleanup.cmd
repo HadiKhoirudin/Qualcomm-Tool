@@ -1,6 +1,4 @@
 @echo off
-set Loader=
-set MemoryName=
 
 del /F /Q %cache%\patch.xml >nul 2>&1
 del /F /Q %cache%\partition >nul 2>&1

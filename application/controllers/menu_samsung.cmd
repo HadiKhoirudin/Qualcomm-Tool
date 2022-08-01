@@ -8,10 +8,11 @@ set totalpages=3
 :: ############################# MENU SAMSUNG ############################ ::
 :: ####################################################################### ::
 :Menu_Samsung_1
-cls
 set dialog=***             S A M S U N G   P A G E   1  OF  %totalpages%                  ***
 call %page%
+call %box%
 Call %button%  8 12 "SAMSUNG SM-A015F" 42 12 "SAMSUNG SM-A025F" 8 15 "SAMSUNG SM-A115A" 42 15 "SAMSUNG SM-A115F" 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -74,10 +75,11 @@ goto Menu_Samsung_1
 
 
 :Menu_Samsung_2
-cls
 set dialog=***             S A M S U N G   P A G E   2  OF  %totalpages%                  ***
 call %page%
+call %box%
 Call %button%  8 12 "SAMSUNG SM-A115U" 42 12 "SAMSUNG SM-A705F" 8 15 "SAMSUNG SM-J415F" 42 15 "SAMSUNG SM-J610F" 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -139,10 +141,11 @@ goto Menu_Samsung_1
 
 
 :Menu_Samsung_3
-cls
 set dialog=***             S A M S U N G   P A G E   3  OF  %totalpages%                  ***
 call %page%
+call %box%
 Call %button%  8 12 "SAMSUNG SM-M025F" 42 12 "SAMSUNG SM-M115F" 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -182,7 +185,6 @@ goto Menu_Samsung_3
 
 
 :Commingsoon
-cls
 set dialog=***                                                                 ***
 call %page%
 echo.

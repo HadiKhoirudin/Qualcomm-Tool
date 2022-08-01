@@ -6,7 +6,7 @@
 set dialog=***                          P R O C E S S                          ***
 call %page%
 echo.
-echo.Selected Model           : %Model%
+echo.Selected Model           : Brand [%Devices%] Model [%Model%]
 echo.Operation                : %Operation%
 
 call %loading%
@@ -18,7 +18,10 @@ IF (%USBComPort%) == () (GOTO :err_process) ELSE (GOTO :process)
 echo.
 %cecho% {04}Error - QCUSB Port EDL Not Detected! {0f}
 echo.
-pause
+echo.
+echo.
+echo.Press [Enter] to continue...
+pause >nul
 call %Menu%
 
 

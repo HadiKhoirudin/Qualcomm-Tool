@@ -2,16 +2,17 @@
 :: Set-Up Controllers - > Models
 set Menu=%menu_xiaomi%
 set Devices=XIAOMI
-set totalpages=5
+set totalpages=8
 
 :: {###################################################################### ::
 :: ############################# XIAOMI MENU ############################# ::
 :: ####################################################################### ::
 :Menu_Xiaomi_1
-cls
 set dialog=***               X I A O M I   P A G E   1  OF  %totalpages%                  ***
 call %page%
+call %box%
 Call %button%  10 12 "XIAOMI MI  6 PRO" 42 12 "XIAOMI MI  8 EE" 10 15 "XIAOMI MI  8 SE " 42 15 "XIAOMI MI  8 UD" 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -74,10 +75,11 @@ if %errorlevel%==6 goto Menu_Xiaomi_2
 goto Menu_Xiaomi_1
 
 :Menu_Xiaomi_2
-cls
 set dialog=***               X I A O M I   P A G E   2  OF  %totalpages%                  ***
 call %page%
+call %box%
 Call %button%  8 12 "XIAOMI MI A2     " 42 12 "XIAOMI MI A2 LITE" 8 15 "XIAOMI MI MAX 2  " 42 15 "XIAOMI MI MAX 3  " 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -138,10 +140,11 @@ if %errorlevel%==6 goto Menu_Xiaomi_3
 goto Menu_Xiaomi_1
 
 :Menu_Xiaomi_3
-cls
 set dialog=***               X I A O M I   P A G E   3  OF  %totalpages%                  ***
 call %page%
+call %box%
 Call %button%  7 12 " XIAOMI MI MIX    " 42 12 " XIAOMI MI MIX 2S " 7 15 " XIAOMI MI MIX 3  " 42 15 " XIAOMI MI NOTE 2 "  19 18 "    BACK    "  38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -202,10 +205,11 @@ if %errorlevel%==6 goto Menu_Xiaomi_4
 goto Menu_Xiaomi_3
 
 :Menu_Xiaomi_4
-cls
 set dialog=***               X I A O M I   P A G E   4  OF  %totalpages%                  ***
 call %page%
-Call %button%  5 12 " XIAOMI MI NOTE 3     " 42 12 " XIAOMI MI NOTE 5    " 5 15 " XIAOMI MI NOTE 5 PRO " 42 15 " XIAOMI MI PAD 4     "  19 18 "    BACK    "  38 18 "    NEXT    " # Press
+call %box%
+Call %button%  5 12 " XIAOMI MI NOTE 3     " 42 12 " XIAOMI MI NOTE 5    " 5 15 " XIAOMI MI NOTE 5 PRO " 42 15 " XIAOMI MI NOTE 6 PRO "  19 18 "    BACK    "  38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -254,8 +258,8 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI PAD 4
-set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm660_ddr_xiaomi_mipad4_clover_s_rb4.elf
+set Model=XIAOMI MI NOTE 6 PRO
+set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm660_ddr_xiaomi_note6pro_tulip_s_rb4.elf
 set MemoryName=emmc
 
 :: Execute
@@ -266,11 +270,12 @@ if %errorlevel%==6 goto Menu_Xiaomi_5
 goto Menu_Xiaomi_4
 
 
-:Menu_Xiaomi_5
-cls
+:Menu_Xiaomi_5 
 set dialog=***               X I A O M I   P A G E   5  OF  %totalpages%                  ***
 call %page%
-Call %button%  5 12 " XIAOMI MI POCO F1    " 42 12 " XIAOMI REDMI 7      " 5 15 " XIAOMI REDMI NOTE 5A " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+call %box%
+Call %button%  5 12 " XIAOMI MI POCO F1    " 42 12 " XIAOMI MI POCO M2 PRO" 5 15 " XIAOMI MI POCO M3    " 42 15 " XIAOMI MI NOTE 8     " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -284,8 +289,74 @@ if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
 set Model=XIAOMI MI POCO F1
-set Loader=%ldr_xiaomi%\prog_firehose_ddr_XIAOMI_v1.mbn
-set MemoryName=emmc
+set Loader=%ldr_xiaomi%\prog_ufs_firehose_sdm845_ddr_pocof1_beryllium_sig_rb1.elf
+set MemoryName=ufs
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+
+if %errorlevel%==2 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI MI POCO M2 PRO
+set Loader=%ldr_xiaomi%\prog_ufs_firehose_MiPocoM2Pro.elf
+set MemoryName=ufs
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+
+if %errorlevel%==3 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI MI POCO M3
+set Loader=%ldr_xiaomi%\prog_ufs_firehose_sdm845_ddr_MiPocoM3.elf
+set MemoryName=ufs
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+if %errorlevel%==4 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI MI NOTE 8
+set Loader=%ldr_xiaomi%\prog_ufs_firehose_RedmiNote8.elf
+set MemoryName=ufs
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+if %errorlevel%==5 goto Menu_Xiaomi_4
+if %errorlevel%==6 goto Menu_Xiaomi_6
+goto Menu_Xiaomi_5
+
+
+:Menu_Xiaomi_6 
+set dialog=***               X I A O M I   P A G E   6  OF  %totalpages%                  ***
+call %page%
+call %box%
+Call %button%  5 12 " XIAOMI MI NOTE 9s    " 42 12 " XIAOMI REDMI 7      " 5 15 " XIAOMI REDMI NOTE 5A " 42 15 " XIAOMI REDMI 5A     " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+echo.
+echo.
+echo.
+echo.
+echo.%msgw1%
+echo.%msgw2%
+%getinput% /m %Press% /h 72
+
+
+:: Check for the pressed button 
+if %errorlevel%==1 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI MI NOTE 9s
+set Loader=%ldr_xiaomi%\prog_ufs_firehose_MiNote9s.elf
+set MemoryName=ufs
 
 :: Execute
 call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
@@ -315,13 +386,153 @@ set MemoryName=emmc
 call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 )
 
-if %errorlevel%==4 goto Menu_Xiaomi_4
-if %errorlevel%==5 goto Commingsoon
-goto Menu_Xiaomi_5
+if %errorlevel%==4 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI REDMI 5A
+set Loader=%ldr_xiaomi%\prog_emmc_firehose_8953_ddr_xiaomi_redmi5a.mbn
+set MemoryName=emmc
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+if %errorlevel%==5 goto Menu_Xiaomi_5
+if %errorlevel%==6 goto Menu_Xiaomi_7
+goto Menu_Xiaomi_6
+
+:Menu_Xiaomi_7 
+set dialog=***               X I A O M I   P A G E   7  OF  %totalpages%                  ***
+call %page%
+call %box%
+Call %button%  5 12 " XIAOMI MI 9T        " 40 12 " XIAOMI MI 9 POWER      " 5 15 " XIAOMI MI NOTE 9 PRO" 40 15 " XIAOMI MI NOTE 9 PROMAX" 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+echo.
+echo.
+echo.
+echo.
+echo.%msgw1%
+echo.%msgw2%
+%getinput% /m %Press% /h 72
+
+
+:: Check for the pressed button 
+if %errorlevel%==1 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI MI 9T
+set Loader=%ldr_xiaomi%\prog_ufs_firehose_sdm845_ddr_Mi9T.elf
+set MemoryName=ufs
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+
+if %errorlevel%==2 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI MI 9 POWER
+set Loader=%ldr_xiaomi%\prog_ufs_firehose_sdm845_ddr_Mi9Power.elf
+set MemoryName=ufs
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+
+if %errorlevel%==3 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI MI NOTE 9 PRO
+set Loader=%ldr_xiaomi%\prog_ufs_firehose_MiNote9Pro.elf
+set MemoryName=ufs
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+if %errorlevel%==4 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI MI NOTE 9 PROMAX
+set Loader=%ldr_xiaomi%\prog_ufs_firehose_MiNote9ProMax.elf
+set MemoryName=ufs
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+if %errorlevel%==5 goto Menu_Xiaomi_6
+if %errorlevel%==6 goto Menu_Xiaomi_8
+goto Menu_Xiaomi_7
+
+:Menu_Xiaomi_8 
+set dialog=***               X I A O M I   P A G E   8  OF  %totalpages%                  ***
+call %page%
+call %box%
+Call %button%  5 12 " XIAOMI MI 10 LITE   " 40 12 " XIAOMI MI 11 T PRO     " 5 15 " XIAOMI MI K20 PRO   " 40 15 " XIAOMI MI PAD 4        " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+echo.
+echo.
+echo.
+echo.
+echo.%msgw1%
+echo.%msgw2%
+%getinput% /m %Press% /h 72
+
+
+:: Check for the pressed button 
+if %errorlevel%==1 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI MI 10 LITE
+set Loader=%ldr_xiaomi%\prog_ufs_firehose_MiNote10Lite.elf
+set MemoryName=ufs
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+
+if %errorlevel%==2 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI MI 11 T PRO
+set Loader=%ldr_xiaomi%\prog_ufs_firehose_Mi11TProUFS.elf
+set MemoryName=ufs
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+
+if %errorlevel%==3 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI MI K20 PRO
+set Loader=%ldr_xiaomi%\prog_ufs_firehose_RedmiK20Pro.elf
+set MemoryName=ufs
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+if %errorlevel%==4 (
+
+:: Set-Up Device Configuration
+set Model=XIAOMI MI PAD 4
+set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm660_ddr_xiaomi_mipad4_clover_s_rb4.elf
+set MemoryName=emmc
+
+:: Execute
+call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
+)
+
+if %errorlevel%==5 goto Menu_Xiaomi_7
+if %errorlevel%==6 goto Commingsoon
+goto Menu_Xiaomi_8
 
 
 :Commingsoon
-cls
 set dialog=***                                                                 ***
 call %page%
 echo.

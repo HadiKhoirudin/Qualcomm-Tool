@@ -19,21 +19,14 @@ set reboot=%~dp2assets\resources\power\boot.xml
 set xml_patch=%~dp2assets\resources\misc\patch.xml
 
 set userdata=%~dp2assets\resources\userdata\userdata.img
-set backup_config=%~dp2assets\backup\%datetime%-config.bin
-set backup_misc=%~dp2assets\backup\%datetime%-misc.img
-set backup_persist=%~dp2assets\backup\%datetime%-persist.bin
-set backup_persistbak=%~dp2assets\backup\%datetime%-persistbak.bin
-set backup_persistent=%~dp2assets\backup\%datetime%-persistent.bin
-
-
-set backup_efs_fsg=%~dp2assets\backup\%datetime%-efs_fsg.bin
-set backup_efs_modemst1=%~dp2assets\backup\%datetime%-efs_modemst1.bin
-set backup_efs_modemst2=%~dp2assets\backup\%datetime%-efs_modemst2.bin
 
 ::: Set-Up Application
 set cache=%~dp2application\cache
+set box=%~dp2application\views\template\box.cmd
+set browse_loader=%~dp2assets\input_file_manual_loader\
 set page=%~dp2application\views\template\page.cmd
 set setup=%~dp2application\config\setup.cmd
+set setup_backup=%~dp2application\config\setup_backup.cmd
 set qcusb=%~dp2application\config\qcusb.cmd
 
 
@@ -41,15 +34,14 @@ set qcusb=%~dp2application\config\qcusb.cmd
 ::: Set-Up Helper
 :: Button
 set batbox=%~dp2application\helpers\batbox.exe
-set box=%~dp2application\helpers\box.cmd
 set button=%~dp2application\helpers\button.cmd
 
 :: Color Echo
 set cecho=%~dp2application\helpers\cecho.exe
 
 :: Messagges
-set msgw1=Warning !!!
-set msgw2=This Operation Will Erase Userdata and Exsisting Data Account.
+set msgw1= Info ! Auto Backup Feature [ON]
+set msgw2= Backup file will be saving at ~\Qualcomm-Tool\assets\backup\...
 
 
 
@@ -74,6 +66,7 @@ set menu_realme=%~dp2application\controllers\menu_realme.cmd
 set menu_vivo=%~dp2application\controllers\menu_vivo.cmd
 set menu_xiaomi=%~dp2application\controllers\menu_xiaomi.cmd
 set menu_samsung=%~dp2application\controllers\menu_samsung.cmd
+set menu_manual_loader=%~dp2application\controllers\menu_manual_loader.cmd
 
 
 
