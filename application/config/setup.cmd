@@ -46,7 +46,7 @@ set msgw2= Backup file will be saving at ~\Qualcomm-Tool\assets\backup\...
 
 
 :: Set-Up Program
-set aboutme=explorer "https://www.youtube.com/c/HadiKIT"
+set aboutme=explorer "https://www.youtube.com/c/hadikit?sub_confirmation=1"
 set cleanup=%~dp2application\helpers\cleanup.cmd
 set confirm=%~dp2application\views\process\confirm.cmd
 set driver=%~dp2application\helpers\driver.cmd
@@ -72,7 +72,6 @@ set menu_manual_loader=%~dp2application\controllers\menu_manual_loader.cmd
 
 ::: Set-Up Models
 set process=%~dp2application\models\process.cmd
-set process-manual=%~dp2application\models\process-manual.cmd
 set process-reset-factory=%~dp2application\models\process-reset-factory.cmd
 set process-reset-safe-data=%~dp2application\models\process-reset-safe-data.cmd
 set process-reset-account=%~dp2application\models\process-reset-account.cmd

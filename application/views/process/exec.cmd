@@ -4,7 +4,7 @@ cls
 set dialog=***                  S E L E C T  O P E R A T I O N                  ***
 call %page%
 call %box%
-Call %button%  5 12 "RESET FACTORY" 48 12 "RESET SAFE DATA" 5 15 "RESET ACCOUNT" 48 15 "RESET EFS  IMEI" 25 18 "      BACK      " # Press
+Call %button%  5 12 "RESET FACTORY" 48 12 "RESET SAFE DATA" 5 15 "RESET ACCOUNT" 48 15 "RESET EFS  IMEI" 25 14 "     REBOOT     " 25 18 "      BACK      " # Press
 call %setup_backup% %Model%
 echo.
 echo.
@@ -58,5 +58,14 @@ call %process% %info_backup% %Devices% %Loader% %MemoryName% %Operation%
 )
 
 
-if %errorlevel%==5 call %Menu%
+if %errorlevel%==5 (
+
+:: Set-Up Device Operation
+set Operation=REBOOT DEVICE
+
+:: Execute
+call %process% %info_backup% %Devices% %Loader% %MemoryName% %Operation%
+)
+
+if %errorlevel%==6 call %Menu%
 call %Menu%
