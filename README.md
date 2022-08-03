@@ -1,7 +1,7 @@
 # Qualcomm-Tool
 For educational purposes, learn how a batch script can handle emmcdl process.
 
-[![ice-screenshot-20220802-014153.png](https://i.postimg.cc/yxH6CX7b/ice-screenshot-20220802-014153.png)](https://postimg.cc/sQTCpWQY)
+[![image-2022-08-03-123649441.png](https://i.postimg.cc/d00bbxSb/image-2022-08-03-123649441.png)](https://postimg.cc/xXWpHtQ5)
 
 ## Recent supported list :
 
@@ -138,6 +138,7 @@ get it on YouTube at HadiK IT Channel.
 
 ```
 + Added some device
-+ Added Reset Facotry, Reset Safe Data, Reset Account, Reset IMEI, Reboot function
++ Added Reset Facotry, Reset Safe Data, Reset Account, Reset IMEI
++ Added Reboot Funtion For Test, Fastboot EDL Xiaomi and Vivo
 + Added Manual Loader / Programming function
 ```
