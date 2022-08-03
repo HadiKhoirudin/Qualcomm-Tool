@@ -148,7 +148,7 @@ goto Menu_Vivo_2
 set dialog=***                  V I V O    P A G E   3  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  7 12 "VIVO Y93    (PD1818F)" 7 15 "VIVO IQOO UI (PD2023F)" 42 12 "VIVO Y95 (PD1818F)" 42 15 "VIVO Y20 OLD SEC  " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+Call %button%  7 12 "VIVO Y93     (PD1818F)" 7 15 "VIVO IQOO UI (PD2023F)" 42 12 "VIVO Y95 (PD1818F)" 42 15 "VIVO Y20 OLD SEC  " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
 echo.
 echo.
 echo.

@@ -9,8 +9,7 @@
 set dialog=***                            SELECT MENU                           ***
 call %page%
 call %box%
-Call %button%  8 12 "     OPPO     " 27 12 "    REALME    " 46 12 "     VIVO     " 8 15 "    XIAOMI    " 46 15 "    SAMSUNG   " 27 18 "INSTALL DRIVER" 8 18 "MANUAL  LOADER" 46 18 "   ABOUT ME   " # Press
-echo.
+Call %button%  8 12 "     OPPO     " 27 12 "    REALME    " 46 12 "     VIVO     " 8 15 "    XIAOMI    " 46 15 "    SAMSUNG   " 27 18 "INSTALL DRIVER" 8 18 "MANUAL  LOADER" 46 18 " FASTBOOT EDL " 46 21 "   ABOUT ME   " # Press
 echo.
 echo.
 echo.
@@ -28,5 +27,6 @@ if %errorlevel%==4 call %menu_xiaomi%
 if %errorlevel%==5 call %menu_samsung%
 if %errorlevel%==6 call %driver%
 if %errorlevel%==7 call %menu_manual_loader%
-if %errorlevel%==8 call %aboutme%
+if %errorlevel%==8 call %menu_fastboot_edl%
+if %errorlevel%==9 call %aboutme%
 goto MainMenu

@@ -29,19 +29,17 @@ call %Menu%
 echo.
 %cecho% {0a}Connecting To Device...{0f} [OK]
 echo.
-%cecho% {0b}Configuring Firehose...{0f} [OK]
-echo.
 
 :: Get Partition Map
 %emmcdl% -p %USBComPort% -f %Loader% -gpt -memoryname %MemoryName% >%cache%\partition
 %sleep% 1
-%cecho% {0a}Configuring Device...{0f}   [OK]
+%cecho% {0b}Configuring Firehose...{0f} [OK]
 echo.
 
-IF "%Operation%" == "RESET FACTORY" ( call %process-reset-factory% %Devices% %Loader% %MemoryName% )
-IF "%Operation%" == "RESET SAFE DATA" ( call %process-reset-safe-data% %Devices% %Loader% %MemoryName% )
-IF "%Operation%" == "RESET ACCOUNT" ( call %process-reset-account% %Devices% %Loader% %MemoryName% )
-IF "%Operation%" == "RESET EFS IMEI" ( call %process-reset-efs-imei%  %Devices% %Loader% %MemoryName% )
+IF "%Operation%" == "RESET FACTORY" (call %process-reset-factory% %Devices% %Loader% %MemoryName%)
+IF "%Operation%" == "RESET SAFE DATA" (call %process-reset-safe-data% %Devices% %Loader% %MemoryName%)
+IF "%Operation%" == "RESET ACCOUNT" (call %process-reset-account% %Devices% %Loader% %MemoryName%)
+IF "%Operation%" == "RESET EFS IMEI" (call %process-reset-efs-imei%  %Devices% %Loader% %MemoryName%)
 
 :: Cleanup
 call %cleanup%

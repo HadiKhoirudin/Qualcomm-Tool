@@ -55,6 +55,8 @@ set getinput=%~dp2application\helpers\getinput.exe
 set loading=%~dp2application\helpers\loading.cmd
 set repl=%~dp2application\helpers\repl.cmd
 set sleep=%~dp2application\helpers\sleep.exe
+set xiaomiedl=%~dp2application\helpers\xiaomiedl.exe
+set vivoedl=%~dp2application\helpers\vivoedl.exe
 
 
 
@@ -66,6 +68,7 @@ set menu_realme=%~dp2application\controllers\menu_realme.cmd
 set menu_vivo=%~dp2application\controllers\menu_vivo.cmd
 set menu_xiaomi=%~dp2application\controllers\menu_xiaomi.cmd
 set menu_samsung=%~dp2application\controllers\menu_samsung.cmd
+set menu_fastboot_edl=%~dp2application\controllers\menu_fastboot_edl.cmd
 set menu_manual_loader=%~dp2application\controllers\menu_manual_loader.cmd
 
 
