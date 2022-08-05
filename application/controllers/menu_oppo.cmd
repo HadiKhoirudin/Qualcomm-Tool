@@ -17,6 +17,7 @@ echo.
 echo.
 echo.
 echo.
+echo.
 echo.%msgw1%
 echo.%msgw2%
 %getinput% /m %Press% /h 72
@@ -81,6 +82,7 @@ set dialog=***                  O P P O    P A G E   2  OF  %totalpages%        
 call %page%
 call %box%
 Call %button%  5 12 "OPPO A74 (CPH 2219)" 44 12 "OPPO A76 (CPH 2375)" 5 15 "OPPO A95 (CPH 2365)" 44 15 "OPPO F17 (CPH 2095)" 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -153,6 +155,7 @@ echo.
 echo.
 echo.
 echo.
+echo.
 echo.%msgw1%
 echo.%msgw2%
 %getinput% /m %Press% /h 72
@@ -217,6 +220,7 @@ set dialog=***                  O P P O    P A G E   4  OF  %totalpages%        
 call %page%
 call %box%
 Call %button%  5 12 "OPPO RENO 4 PRO (CPH2109)" 41 12 "OPPO RENO 5 (CPH2159) " 5 15 "OPPO RENO 6     (CPH2235)" 41 15 "OPPO RENO 7 (CPH2363) " 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.

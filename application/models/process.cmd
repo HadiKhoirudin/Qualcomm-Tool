@@ -6,7 +6,7 @@
 set dialog=***                          P R O C E S S                          ***
 call %page%
 echo.
-echo.Selected Model           : Brand [%Devices%] Model [%Model%]
+echo.Selected Device          : Brand [%Devices%] Model [%Model%]
 echo.Operation                : %Operation%
 
 call %loading%
@@ -39,7 +39,9 @@ echo.
 IF "%Operation%" == "RESET FACTORY" (call %process-reset-factory% %Devices% %Loader% %MemoryName%)
 IF "%Operation%" == "RESET SAFE DATA" (call %process-reset-safe-data% %Devices% %Loader% %MemoryName%)
 IF "%Operation%" == "RESET ACCOUNT" (call %process-reset-account% %Devices% %Loader% %MemoryName%)
-IF "%Operation%" == "RESET EFS IMEI" (call %process-reset-efs-imei%  %Devices% %Loader% %MemoryName%)
+IF "%Operation%" == "RESET EFS IMEI" (call %process-reset-efs-imei% %Devices% %Loader% %MemoryName%)
+IF "%Operation%" == "UNLOCK BOOTLOADER" (call %process-unlock-bootloader% %Devices% %Loader% %MemoryName%)
+IF "%Operation%" == "RELOCK BOOTLOADER" (call %process-relock-bootloader% %Devices% %Loader% %MemoryName%)
 
 :: Cleanup
 call %cleanup%

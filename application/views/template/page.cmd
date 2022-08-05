@@ -12,6 +12,7 @@ echo. ______________________________________________________________________
 echo. Credit : 
 echo.          - Bjoern Kerler (QUALCOMM FIREHOSE ATTACKER SOURCE CODE)
 echo.          - Hary Sulteng  (GSM SULTENG)
+echo.          - Faizal Hamzah (THE FIREFOX FLASHER)
 echo.          - HadiK IT      (Hadi Khoirudin, S. Kom. - SOFTWARE ENGINEER)
 %cecho% {0f}
 echo. ______________________________________________________________________

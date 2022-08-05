@@ -16,6 +16,7 @@ echo.
 echo.
 echo.
 echo.
+echo.
 echo.%msgw1%
 echo.%msgw2%
 %getinput% /m %Press% /h 72
@@ -80,6 +81,7 @@ set dialog=***                  V I V O    P A G E   2  OF  %totalpages%        
 call %page%
 call %box%
 Call %button%  5 12 "VIVO Y53/L   (PD1628F)" 42 12 "VIVO Y65    (PD1621BF)" 5 15 "VIVO Y71    (PD1818EF)" 42 15 "VIVO Y55/L   (PD1510F)" 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -153,6 +155,7 @@ echo.
 echo.
 echo.
 echo.
+echo.
 echo.%msgw1%
 echo.%msgw2%
 %getinput% /m %Press% /h 72
@@ -213,6 +216,7 @@ set dialog=***                  V I V O    P A G E   4  OF  %totalpages%        
 call %page%
 call %box%
 Call %button%  7 12 "VIVO Y20 NEW SEC  " 7 15 "VIVO V20 NEW SEC  " 42 12 "VIVO Y21e (PD2107F)" 42 15 "VIVO Y50T (PD2023E)" 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.

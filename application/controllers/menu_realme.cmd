@@ -16,6 +16,7 @@ echo.
 echo.
 echo.
 echo.
+echo.
 echo.%msgw1%
 echo.%msgw2%
 %getinput% /m %Press% /h 72
@@ -78,6 +79,7 @@ set dialog=***               R E A L M E   P A G E   2  OF  %totalpages%        
 call %page%
 call %box%
 Call %button%  5 12 "REALME 9   (RMX 3521)" 40 12 "REALME C15 (RMX 2195)" 5 15 "REALME C17 (RMX 2101)" 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.

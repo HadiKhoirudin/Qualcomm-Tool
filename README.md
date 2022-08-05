@@ -1,7 +1,7 @@
 # Qualcomm-Tool
 For educational purposes, learn how a batch script can handle emmcdl process.
 
-[![image-2022-08-03-123649441.png](https://i.postimg.cc/d00bbxSb/image-2022-08-03-123649441.png)](https://postimg.cc/xXWpHtQ5)
+[![image-2022-08-03-123649441.png](https://i.postimg.cc/gjhSVB7L/image-2022-08-05-194549049.png)](https://postimg.cc/p52JxkRP)
 
 ## Recent supported list :
 
@@ -141,4 +141,13 @@ get it on YouTube at HadiK IT Channel.
 + Added Reset Facotry, Reset Safe Data, Reset Account, Reset IMEI
 + Added Reboot Funtion For Test, Fastboot EDL Xiaomi and Vivo
 + Added Manual Loader / Programming function
+```
+
+## Recent changes list V3.0 RC4 :
+
+```
++ Join with The Firefox Flasher
++ Added Unlock and Relock Boot Loader function
++ Added Redmi Note 7 Lavender
+- Remove Redmi 5a Riva
 ```

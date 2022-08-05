@@ -13,9 +13,11 @@ Call %button%  8 12 "     OPPO     " 27 12 "    REALME    " 46 12 "     VIVO    
 echo.
 echo.
 echo.
-echo. Version 3.0 RC3 - 02/08/2022
-echo. Added Auto Backup - Added Some Devices - Added Manual Loader Function
-echo. Added Auto Generate Patch.xml Function - etc...
+echo.                     Version 3.0  RC4 - 04/08/2022                     
+echo. ______________________________________________________________________
+echo. - Added Auto Backup                     - Added Manual Loader Function
+echo. - Added Auto Generate Patch.xml         - Added Reset IMEI / EFS
+echo. - Added Fastboot EDL                    - Added Un/ReLock Bootloader
 
 %getinput% /m %Press% /h 72
 :: Check for the pressed button 

@@ -1,0 +1,82 @@
+Version 2.15
+Downloading flash programmer: assets\devices\loaders\xiaomi\prog_emmc_firehose_8917_note5a_ugglite_ddr.mbn
+Successfully open flash programmer to write: assets\devices\loaders\xiaomi\prog_emmc_firehose_8917_note5a_ugglite_ddr.mbn
+Waiting for flash programmer to boot
+
+Programming device using SECTOR_SIZE=512
+
+<?xml version = "1.0" ?><data><configure MemoryName="emmc" ZLPAwareHost="1" SkipStorageInit="0" SkipWrite="0" MaxPayloadSizeToTargetInBytes="1048576"/></data>
+<?xml version="1.0" encoding="UTF-8" ?><data><log value="logbuf@0x0806FE48 fh@0x0806CCB0" /></data>
+<?xml version="1.0" encoding="UTF-8" ?><data><response value="ACK" MinVersionSupported="1" MemoryName="eMMC" MaxPayloadSizeFromTargetInBytes="4096" MaxPayloadSizeToTargetInBytes="1048576" MaxPayloadSizeToTargetInBytesSupported="1048576" MaxXMLSizeInBytes="4096" Version="1" TargetName="8917" /></data>
+Using 99 bytes from mbuffer
+<?xml version="1.0" encoding="UTF-8" ?><data><log value="logbuf@0x0806FE48 fh@0x0806CCB0" /></data>
+me="eMMC" MaxPayloadSizeFromTargetInBytes="4096" MaxPayloadSizeToTargetInBytes="1048576" MaxPayloadSizeToTargetInBytesSupported="1048576" MaxXMLSizeInBytes="4096" Version="1" TargetName="8917" /></data>
+Connected to flash programmer, starting download
+<?xml version="1.0" ?><data>
+<read SECTOR_SIZE_IN_BYTES="512" num_partition_sectors="1" physical_partition_number="0" start_sector="1"/>
+</data>
+<?xml version="1.0" encoding="UTF-8" ?><data><response value="ACK" rawmode="true" /></data>
+Sectors remaining 1
+Downloaded raw image at speed 512 KB/s
+<?xml version="1.0" encoding="UTF-8" ?><data><log value="Finished sector address 0" /></data>
+<?xml version="1.0" encoding="UTF-8" ?><data><response value="ACK" rawmode="false" /></data>
+
+Successfully found GPT partition
+<?xml version="1.0" ?><data>
+<read SECTOR_SIZE_IN_BYTES="512" num_partition_sectors="32" physical_partition_number="0" start_sector="2"/>
+</data>
+<?xml version="1.0" encoding="UTF-8" ?><data><response value="ACK" rawmode="true" /></data>
+Sectors remaining 32
+Downloaded raw image at speed 16384 KB/s
+<?xml version="1.0" encoding="UTF-8" ?><data><log value="Finished sector address 0" /></data>
+<?xml version="1.0" encoding="UTF-8" ?><data><response value="ACK" rawmode="false" /></data>
+1. Partition Name: modem Start LBA: 131072 Size in LBA: 172032
+2. Partition Name: fsc Start LBA: 393216 Size in LBA: 2
+3. Partition Name: ssd Start LBA: 393218 Size in LBA: 16
+4. Partition Name: sbl1 Start LBA: 393234 Size in LBA: 1024
+5. Partition Name: sbl1bak Start LBA: 394258 Size in LBA: 1024
+6. Partition Name: rpm Start LBA: 395282 Size in LBA: 1024
+7. Partition Name: rpmbak Start LBA: 396306 Size in LBA: 1024
+8. Partition Name: tz Start LBA: 397330 Size in LBA: 4096
+9. Partition Name: tzbak Start LBA: 401426 Size in LBA: 4096
+10. Partition Name: devcfg Start LBA: 405522 Size in LBA: 512
+11. Partition Name: devcfgbak Start LBA: 406034 Size in LBA: 512
+12. Partition Name: dsp Start LBA: 406546 Size in LBA: 32768
+13. Partition Name: modemst1 Start LBA: 439314 Size in LBA: 3072
+14. Partition Name: modemst2 Start LBA: 442386 Size in LBA: 3072
+15. Partition Name: DDR Start LBA: 524288 Size in LBA: 64
+16. Partition Name: fsg Start LBA: 524352 Size in LBA: 3072
+17. Partition Name: sec Start LBA: 527424 Size in LBA: 32
+18. Partition Name: splash Start LBA: 655360 Size in LBA: 22528
+19. Partition Name: aboot Start LBA: 786432 Size in LBA: 2048
+20. Partition Name: abootbak Start LBA: 788480 Size in LBA: 2048
+21. Partition Name: boot Start LBA: 790528 Size in LBA: 131072
+22. Partition Name: recovery Start LBA: 921600 Size in LBA: 131072
+23. Partition Name: devinfo Start LBA: 1052672 Size in LBA: 2048
+24. Partition Name: system Start LBA: 1054720 Size in LBA: 6291456
+25. Partition Name: cache Start LBA: 7471104 Size in LBA: 524288
+26. Partition Name: persist Start LBA: 7995392 Size in LBA: 65536
+27. Partition Name: misc Start LBA: 8060928 Size in LBA: 2048
+28. Partition Name: keystore Start LBA: 8062976 Size in LBA: 1024
+29. Partition Name: config Start LBA: 8064000 Size in LBA: 64
+30. Partition Name: oem Start LBA: 8064064 Size in LBA: 524288
+31. Partition Name: limits Start LBA: 8650752 Size in LBA: 64
+32. Partition Name: mota Start LBA: 8781824 Size in LBA: 1024
+33. Partition Name: dip Start LBA: 8782848 Size in LBA: 2048
+34. Partition Name: mdtp Start LBA: 8784896 Size in LBA: 65536
+35. Partition Name: syscfg Start LBA: 8850432 Size in LBA: 1024
+36. Partition Name: mcfg Start LBA: 8851456 Size in LBA: 8192
+37. Partition Name: cmnlib Start LBA: 8912896 Size in LBA: 512
+38. Partition Name: cmnlibbak Start LBA: 8913408 Size in LBA: 512
+39. Partition Name: cmnlib64 Start LBA: 8913920 Size in LBA: 512
+40. Partition Name: cmnlib64bak Start LBA: 8914432 Size in LBA: 512
+41. Partition Name: keymaster Start LBA: 8914944 Size in LBA: 512
+42. Partition Name: keymasterbak Start LBA: 8915456 Size in LBA: 512
+43. Partition Name: apdp Start LBA: 9043968 Size in LBA: 512
+44. Partition Name: msadp Start LBA: 9044480 Size in LBA: 512
+45. Partition Name: dpo Start LBA: 9044992 Size in LBA: 16
+46. Partition Name: logdump Start LBA: 9045008 Size in LBA: 131072
+47. Partition Name: cust Start LBA: 9306112 Size in LBA: 1048576
+48. Partition Name: userdata Start LBA: 10354688 Size in LBA: 20422623
+Status: 0 The operation completed successfully.
+

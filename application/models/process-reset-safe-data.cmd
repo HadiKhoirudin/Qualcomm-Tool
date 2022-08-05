@@ -23,7 +23,7 @@ IF "%Devices%" == "OPPO" (
       set /a "result_misc=!line:~1!" 2>nul
     )
         IF "%result_misc%" == "1" (for /F "Tokens=7 " %%f in ('findstr /I "misc" %cache%\partition') do (echo.Partition Misc Sector      : %%f
-            type %xml_patch% | %repl% "(start_sector=\q).*?(\q.*>)" "$1%%f$2" xi >%cache%\patch.xml)
+            type %xml_misc_patch% | %repl% "(start_sector=\q).*?(\q.*>)" "$1%%f$2" xi >%cache%\patch.xml)
             %sleep% 2
             %emmcdl% -p %USBComPort% -f %Loader% -d misc %backup_misc% -memoryname %MemoryName% >nul
             %cecho% {0a}Backing-up misc...      {0f}[OK]
@@ -62,7 +62,7 @@ IF "%Devices%" == "REALME" (
       set /a "result_misc=!line:~1!" 2>nul
     )
         IF "%result_misc%" == "1" (for /F "Tokens=7 " %%f in ('findstr /I "misc" %cache%\partition') do (echo.Partition Misc Sector      : %%f
-            type %xml_patch% | %repl% "(start_sector=\q).*?(\q.*>)" "$1%%f$2" xi >%cache%\patch.xml)
+            type %xml_misc_patch% | %repl% "(start_sector=\q).*?(\q.*>)" "$1%%f$2" xi >%cache%\patch.xml)
             %sleep% 2
             %emmcdl% -p %USBComPort% -f %Loader% -d misc %backup_misc% -memoryname %MemoryName% >nul
             %cecho% {0a}Backing-up misc...      {0f}[OK]
@@ -101,7 +101,7 @@ IF "%Devices%" == "VIVO" (
       set /a "result_misc=!line:~1!" 2>nul
     )
         IF "%result_misc%" == "1" (for /F "Tokens=7 " %%f in ('findstr /I "misc" %cache%\partition') do (echo.Partition Misc Sector      : %%f
-            type %xml_patch% | %repl% "(start_sector=\q).*?(\q.*>)" "$1%%f$2" xi >%cache%\patch.xml)
+            type %xml_misc_patch% | %repl% "(start_sector=\q).*?(\q.*>)" "$1%%f$2" xi >%cache%\patch.xml)
             %sleep% 2
             %emmcdl% -p %USBComPort% -f %Loader% -d misc %backup_misc% -memoryname %MemoryName% >nul
             %cecho% {0a}Backing-up misc...      {0f}[OK]
@@ -209,7 +209,7 @@ IF "%Devices%" == "OTHER" (
       set /a "result_misc=!line:~1!" 2>nul
     )
         IF "%result_misc%" == "1" (for /F "Tokens=7 " %%f in ('findstr /I "misc" %cache%\partition') do (echo.Partition Misc Sector      : %%f
-            type %xml_patch% | %repl% "(start_sector=\q).*?(\q.*>)" "$1%%f$2" xi >%cache%\patch.xml)
+            type %xml_misc_patch% | %repl% "(start_sector=\q).*?(\q.*>)" "$1%%f$2" xi >%cache%\patch.xml)
             %sleep% 2
             %emmcdl% -p %USBComPort% -f %Loader% -d misc %backup_misc% -memoryname %MemoryName% >nul
             %cecho% {0a}Backing-up misc...      {0f}[OK]

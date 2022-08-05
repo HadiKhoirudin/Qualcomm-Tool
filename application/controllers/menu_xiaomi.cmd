@@ -16,6 +16,7 @@ echo.
 echo.
 echo.
 echo.
+echo.
 echo.%msgw1%
 echo.%msgw2%
 %getinput% /m %Press% /h 72
@@ -79,6 +80,7 @@ set dialog=***               X I A O M I   P A G E   2  OF  %totalpages%        
 call %page%
 call %box%
 Call %button%  8 12 "XIAOMI MI A2     " 42 12 "XIAOMI MI A2 LITE" 8 15 "XIAOMI MI MAX 2  " 42 15 "XIAOMI MI MAX 3  " 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -148,6 +150,7 @@ echo.
 echo.
 echo.
 echo.
+echo.
 echo.%msgw1%
 echo.%msgw2%
 %getinput% /m %Press% /h 72
@@ -209,6 +212,7 @@ set dialog=***               X I A O M I   P A G E   4  OF  %totalpages%        
 call %page%
 call %box%
 Call %button%  5 12 " XIAOMI MI NOTE 3     " 42 12 " XIAOMI MI NOTE 5    " 5 15 " XIAOMI MI NOTE 5 PRO " 42 15 " XIAOMI MI NOTE 6 PRO "  19 18 "    BACK    "  38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -279,6 +283,7 @@ echo.
 echo.
 echo.
 echo.
+echo.
 echo.%msgw1%
 echo.%msgw2%
 %getinput% /m %Press% /h 72
@@ -340,7 +345,8 @@ goto Menu_Xiaomi_5
 set dialog=***               X I A O M I   P A G E   6  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 " XIAOMI MI NOTE 9s    " 42 12 " XIAOMI REDMI 7      " 5 15 " XIAOMI REDMI NOTE 5A " 42 15 " XIAOMI REDMI 5A     " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+Call %button%  5 12 " XIAOMI MI NOTE 9s    " 42 12 " XIAOMI REDMI 7      " 5 15 " XIAOMI REDMI NOTE 5A " 42 15 " XIAOMI REDMI NOTE 7 " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -389,8 +395,8 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI REDMI 5A
-set Loader=%ldr_xiaomi%\prog_emmc_firehose_8953_ddr_xiaomi_redmi5a.mbn
+set Model=XIAOMI REDMI NOTE 7
+set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm660_ddr_redminote7_lavender.mbn
 set MemoryName=emmc
 
 :: Execute
@@ -406,6 +412,7 @@ set dialog=***               X I A O M I   P A G E   7  OF  %totalpages%        
 call %page%
 call %box%
 Call %button%  5 12 " XIAOMI MI 9T        " 40 12 " XIAOMI MI 9 POWER      " 5 15 " XIAOMI MI NOTE 9 PRO" 40 15 " XIAOMI MI NOTE 9 PROMAX" 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -471,6 +478,7 @@ set dialog=***               X I A O M I   P A G E   8  OF  %totalpages%        
 call %page%
 call %box%
 Call %button%  5 12 " XIAOMI MI 10 LITE   " 40 12 " XIAOMI MI 11 T PRO     " 5 15 " XIAOMI MI K20 PRO   " 40 15 " XIAOMI MI PAD 4        " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.

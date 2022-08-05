@@ -2,8 +2,8 @@
 @echo off
 @shift /0
 set datetime=%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%%TIME:~0,2%%TIME:~3,2%
-set header=          Q U A L C O M M    T O O L    V 3 . 0    -    R C 3  
-set title=QUALCOMM TOOL V3.0 - RC3
+set header=          Q U A L C O M M    T O O L    V 3 . 0    -    R C 4  
+set title=QUALCOMM TOOL V3.0 - RC4
 set USBComPort=
 
 
@@ -16,7 +16,8 @@ set ldr_xiaomi=%~dp2assets\devices\loaders\xiaomi
 set ldr_samsung=%~dp2assets\devices\loaders\samsung
 
 set reboot=%~dp2assets\resources\power\boot.xml
-set xml_patch=%~dp2assets\resources\misc\patch.xml
+set xml_misc_patch=%~dp2assets\resources\misc\patch.xml
+set xml_devinfo_path=%~dp2assets\resources\devinfo
 
 set userdata=%~dp2assets\resources\userdata\userdata.img
 
@@ -79,3 +80,5 @@ set process-reset-factory=%~dp2application\models\process-reset-factory.cmd
 set process-reset-safe-data=%~dp2application\models\process-reset-safe-data.cmd
 set process-reset-account=%~dp2application\models\process-reset-account.cmd
 set process-reset-efs-imei=%~dp2application\models\process-efs-imei.cmd
+set process-unlock-bootloader=%~dp2application\models\process-unlock-bootloader.cmd
+set process-relock-bootloader=%~dp2application\models\process-relock-bootloader.cmd

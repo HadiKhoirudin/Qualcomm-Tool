@@ -16,6 +16,7 @@ echo.
 echo.
 echo.
 echo.
+echo.
 echo.%msgw1%
 echo.%msgw2%
 %getinput% /m %Press% /h 72
@@ -83,6 +84,7 @@ echo.
 echo.
 echo.
 echo.
+echo.
 echo.%msgw1%
 echo.%msgw2%
 %getinput% /m %Press% /h 72
@@ -145,6 +147,7 @@ set dialog=***             S A M S U N G   P A G E   3  OF  %totalpages%        
 call %page%
 call %box%
 Call %button%  8 12 "SAMSUNG SM-M025F" 42 12 "SAMSUNG SM-M115F" 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
