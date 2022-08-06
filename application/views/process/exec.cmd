@@ -10,6 +10,7 @@ IF "%Devices%" == "REALME" (Call %button%  5 12 "RESET FACTORY" 48 12 "RESET SAF
 IF "%Devices%" == "VIVO" (Call %button%  5 12 "RESET FACTORY" 48 12 "RESET SAFE DATA" 5 15 "RESET ACCOUNT" 48 15 "RESET EFS  IMEI" 25 14 "     REBOOT     " 29 18 "   BACK   " 5 18 "UNLOCK BOOTLOADER" 46 18 "RELOCK BOOTLOADER" # Press)
 IF "%Devices%" == "XIAOMI" (Call %button%  5 12 "RESET FACTORY" 48 12 "RESET SAFE DATA" 5 15 "RESET ACCOUNT" 48 15 "RESET EFS  IMEI" 25 14 "     REBOOT     " 29 18 "   BACK   " 5 18 "UNLOCK BOOTLOADER" 46 18 "RELOCK BOOTLOADER" # Press)
 IF "%Devices%" == "SAMSUNG" (Call %button%  5 12 "RESET FACTORY" 48 12 "RESET SAFE DATA" 5 15 "RESET ACCOUNT" 48 15 "RESET EFS  IMEI" 25 14 "     REBOOT     " 29 18 "   BACK   " # Press)
+IF "%Devices%" == "OTHER" (Call %button%  5 12 "RESET FACTORY" 48 12 "RESET SAFE DATA" 5 15 "RESET ACCOUNT" 48 15 "RESET EFS  IMEI" 25 14 "     REBOOT     " 29 18 "   BACK   " # Press)
 
 call %setup_backup% %Model%
 echo.
