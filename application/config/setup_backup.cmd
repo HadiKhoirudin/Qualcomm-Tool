@@ -3,6 +3,7 @@ set info_backup=%Model%
 set info_backup=%info_backup: =_%
 
 set backup_config=%~dp2assets\backup\%info_backup%-%datetime%-config.bin
+set backup_devinfo=%~dp2assets\backup\%info_backup%-%datetime%-devinfo.bin
 set backup_misc=%~dp2assets\backup\%info_backup%-%datetime%-misc.img
 set backup_persist=%~dp2assets\backup\%info_backup%-%datetime%-persist.bin
 set backup_persistbak=%~dp2assets\backup\%info_backup%-%datetime%-persistbak.bin
