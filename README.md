@@ -1,7 +1,7 @@
 # Qualcomm-Tool
 For educational purposes, learn how a batch script can handle emmcdl process.
 
-[![image-2022-08-11-034516441.png](https://i.postimg.cc/rppvdfDk/image-2022-08-11-034516441.png)](https://postimg.cc/fV6Hpj72)
+[![image-2022-08-11-034516441.png](https://i.postimg.cc/rppvdfDk/image-2022-08-11-034516441.png)](https://postimg.cc/fV6Hpj72) [![image-2022-08-11-034814046.png](https://i.postimg.cc/J7JZVmPf/image-2022-08-11-034814046.png)](https://postimg.cc/mhLt7xxj)
 
 ## Recent supported list :
 
