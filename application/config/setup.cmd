@@ -2,8 +2,9 @@
 @echo off
 @shift /0
 set datetime=%DATE:~10,4%%DATE:~4,2%%DATE:~7,2%%TIME:~0,2%%TIME:~3,2%
-set header=          Q U A L C O M M    T O O L    V 3 . 0    -    R C 4  
-set title=QUALCOMM TOOL V3.0 - RC4
+set datetime=%datetime: =0%
+set header=          Q U A L C O M M    T O O L    V 3 . 0    -    R C 5  
+set title=QUALCOMM TOOL V3.0 - RC5
 set USBComPort=
 
 

@@ -26,7 +26,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI 6 PRO
+set Model=MI 6 PRO
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_8953_ddr_xiaomi_6pro_sakura_rb1.mbn
 set MemoryName=emmc
 
@@ -38,7 +38,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI 8 EE
+set Model=MI 8 EE
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_sdm845_ddr_mi8ee_ursa_sig_rb1.elf
 set MemoryName=ufs
 
@@ -50,7 +50,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI 8 SE
+set Model=MI 8 SE
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm670_ddr_xiaomi_mi8se_sirius_sig_rb1.mbn
 set MemoryName=emmc
 
@@ -62,7 +62,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI 8 UD
+set Model=MI 8 UD
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_sdm845_ddr_mi8ud_equuleus_sig_rb1.elf
 set MemoryName=ufs
 
@@ -94,7 +94,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI A2
+set Model=MI A2
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm660_ddr_mia2_jasmine_rb2.elf
 set MemoryName=emmc
 
@@ -106,7 +106,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI A2 LITE
+set Model=MI A2 LITE
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_8953_ddr_mia2lite_daisy_rb1.mbn
 set MemoryName=emmc
 
@@ -118,7 +118,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI MAX 2
+set Model=MI MAX 2
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_8998_ddr_xiaomi_mimax2_chiron_rb1.elf
 set MemoryName=ufs
 
@@ -130,7 +130,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI MAX 3
+set Model=MI MAX 3
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm660_ddr_xiaomi1_mimax3_nitrogen_rb4.elf
 set MemoryName=emmc
 
@@ -160,7 +160,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI MIX LITHIUM
+set Model=MI MIX LITHIUM
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_8996_ddr_xiaomi_mimix_lithium_rb1.elf
 set MemoryName=ufs
 
@@ -184,7 +184,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI MIX 3
+set Model=MI MIX 3
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_sdm845_ddr_sig_mimix3_perseus_rb2.elf
 set MemoryName=ufs
 
@@ -196,7 +196,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI NOTE 2
+set Model=MI NOTE 2
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_8996_ddr_xiaomi_minote2_scorpio_rb1.elf
 set MemoryName=ufs
 
@@ -226,7 +226,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI NOTE 3
+set Model=MI NOTE 3
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm660_ddr_xiaomi_minote3_jason_rb1.elf
 set MemoryName=emmc
 
@@ -238,7 +238,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI NOTE 5
+set Model=MI NOTE 5
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm660_ddr_xiaomi_note5_whyred_s_rb4.elf
 set MemoryName=emmc
 
@@ -250,7 +250,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI NOTE 5 PRO
+set Model=MI NOTE 5 PRO
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm660_ddr_xiaomi_note5pro_whyred_s_rb4.elf
 set MemoryName=emmc
 
@@ -262,7 +262,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI NOTE 6 PRO
+set Model=MI NOTE 6 PRO
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm660_ddr_xiaomi_note6pro_tulip_s_rb4.elf
 set MemoryName=emmc
 
@@ -293,7 +293,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI POCO F1
+set Model=MI POCO F1
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_sdm845_ddr_pocof1_beryllium_sig_rb1.elf
 set MemoryName=ufs
 
@@ -305,7 +305,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI POCO M2 PRO
+set Model=MI POCO M2 PRO
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_MiPocoM2Pro.elf
 set MemoryName=ufs
 
@@ -317,7 +317,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI POCO M3
+set Model=MI POCO M3
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_sdm845_ddr_MiPocoM3.elf
 set MemoryName=ufs
 
@@ -328,7 +328,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI NOTE 8
+set Model=MI NOTE 8
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_RedmiNote8.elf
 set MemoryName=ufs
 
@@ -360,7 +360,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI NOTE 9s
+set Model=MI NOTE 9s
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_MiNote9s.elf
 set MemoryName=ufs
 
@@ -372,7 +372,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI REDMI 7
+set Model=REDMI 7
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_8953_ddr_redmi7_onc_onclite.mbn
 set MemoryName=emmc
 
@@ -384,7 +384,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI REDMI NOTE 5A
+set Model=REDMI NOTE 5A
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_8917_note5a_ugglite_ddr.mbn
 set MemoryName=emmc
 
@@ -395,7 +395,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI REDMI NOTE 7
+set Model=REDMI NOTE 7
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm660_ddr_redminote7_lavender.mbn
 set MemoryName=emmc
 
@@ -426,7 +426,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI 9T
+set Model=MI 9T
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_sdm845_ddr_Mi9T.elf
 set MemoryName=ufs
 
@@ -438,7 +438,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI 9 POWER
+set Model=MI 9 POWER
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_sdm845_ddr_Mi9Power.elf
 set MemoryName=ufs
 
@@ -450,7 +450,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI NOTE 9 PRO
+set Model=MI NOTE 9 PRO
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_MiNote9Pro.elf
 set MemoryName=ufs
 
@@ -461,7 +461,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI NOTE 9 PROMAX
+set Model=MI NOTE 9 PROMAX
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_MiNote9ProMax.elf
 set MemoryName=ufs
 
@@ -492,7 +492,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI 10 LITE
+set Model=MI 10 LITE
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_MiNote10Lite.elf
 set MemoryName=ufs
 
@@ -504,7 +504,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI 11 T PRO
+set Model=MI 11 T PRO
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_Mi11TProUFS.elf
 set MemoryName=ufs
 
@@ -516,7 +516,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI K20 PRO
+set Model=MI K20 PRO
 set Loader=%ldr_xiaomi%\prog_ufs_firehose_RedmiK20Pro.elf
 set MemoryName=ufs
 
@@ -527,7 +527,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=XIAOMI MI PAD 4
+set Model=MI PAD 4
 set Loader=%ldr_xiaomi%\prog_emmc_firehose_Sdm660_ddr_xiaomi_mipad4_clover_s_rb4.elf
 set MemoryName=emmc
 

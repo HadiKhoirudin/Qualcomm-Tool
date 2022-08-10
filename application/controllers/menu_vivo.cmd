@@ -26,7 +26,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=VIVO V9 PD1730F
+set Model=V9 PD1730F
 set Loader=%ldr_vivo%\prog_firehose_8953_ddr_vivo_v9.mbn
 set MemoryName=emmc
 
@@ -38,7 +38,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=VIVO V9 Youth PD1730BF
+set Model=V9 Youth PD1730BF
 set Loader=%ldr_vivo%\prog_firehose_8953_ddr_vivo_v9_youth.mbn
 set MemoryName=emmc
 
@@ -50,7 +50,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=VIVO V11 PRO PD1814F
+set Model=V11 PRO PD1814F
 set Loader=%ldr_vivo%\prog_firehose_8937_y91_y93_y95_v11Pro.mbn
 set MemoryName=emmc
 
@@ -62,7 +62,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=VIVO Y91 Y91i PD1818F
+set Model=Y91 Y91i PD1818F
 set Loader=%ldr_vivo%\prog_firehose_8937_y91_y93_y95_v11Pro.mbn
 set MemoryName=emmc
 
@@ -95,7 +95,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=VIVO Y53/L PD1628F
+set Model=Y53/L PD1628F
 set Loader=%ldr_vivo%\prog_firehose_8917_ddr_vivo_y53_y53l.mbn
 set MemoryName=emmc
 
@@ -107,7 +107,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=VIVO Y65 PD1621BF
+set Model=Y65 PD1621BF
 set Loader=%ldr_vivo%\prog_firehose_8917_ddr_vivo_y65.mbn
 set MemoryName=emmc
 
@@ -119,7 +119,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=VIVO Y71 PD1818EF
+set Model=Y71 PD1818EF
 set Loader=%ldr_vivo%\prog_firehose_8917_ddr_vivo_y71.mbn
 set MemoryName=emmc
 
@@ -131,7 +131,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=VIVO Y51 Y51L PD1510F
+set Model=Y51 Y51L PD1510F
 set Loader=%ldr_vivo%\prog_firehose_8937_ddr_vivo_y55-y55l_pd1510f.mbn
 set MemoryName=emmc
 
@@ -165,7 +165,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=VIVO Y93 PD1818F
+set Model=Y93 PD1818F
 set Loader=%ldr_vivo%\prog_firehose_8937_y91_y93_y95_v11Pro.mbn
 set MemoryName=emmc
 
@@ -177,7 +177,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=VIVO IQOO UI PD2023F
+set Model=IQOO UI PD2023F
 set Loader=%ldr_vivo%\prog_firehose_ddr_vivo_IQOOU1_Y20_Y50T_V20.elf
 set MemoryName=ufs
 
@@ -188,7 +188,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=VIVO Y95 PD1818F
+set Model=Y95 PD1818F
 set Loader=%ldr_vivo%\prog_firehose_8937_y91_y93_y95_v11Pro.mbn
 set MemoryName=ufs
 
@@ -199,7 +199,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=VIVO Y20 OLD SEC PD2034F
+set Model=Y20 OLD SEC PD2034F
 set Loader=%ldr_vivo%\prog_firehose_ddr_vivo_Y20_Y20i_Y20s.elf
 set MemoryName=emmc
 
@@ -230,7 +230,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=VIVO Y20 NEW SEC PD2034F
+set Model=Y20 NEW SEC PD2034F
 set Loader=%ldr_vivo%\prog_firehose_ddr_vivo_IQOOU1_Y20_Y50T_V20.elf
 set MemoryName=emmc
 
@@ -242,7 +242,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=VIVO V20 NEW SEC PD2039F
+set Model=V20 NEW SEC PD2039F
 set Loader=%ldr_vivo%\prog_firehose_ddr_vivo_IQOOU1_Y20_Y50T_V20.elf
 set MemoryName=ufs
 
@@ -253,7 +253,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=VIVO V21e PD2107F
+set Model=V21e PD2107F
 set Loader=%ldr_vivo%\prog_firehose_ddr_vivo_V21e.elf
 set MemoryName=ufs
 
@@ -264,7 +264,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=VIVO Y50T PD2023E
+set Model=Y50T PD2023E
 set Loader=%ldr_vivo%\prog_firehose_ddr_vivo_IQOOU1_Y20_Y50T_V20.elf
 set MemoryName=ufs
 

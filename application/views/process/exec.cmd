@@ -18,7 +18,7 @@ echo.
 echo.
 echo.
 echo.------------------------------------------------------------------------
-echo.Selected Device : Brand [%Devices%] Model [%Model%]
+echo.Selected Device : %Devices% %Model%
 echo.Memory Name     : %MemoryName%
 echo.------------------------------------------------------------------------
 %getinput% /m %Press% /h 72

@@ -26,7 +26,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=REALME 6 PRO RMX 2061
+set Model=6 PRO RMX 2061
 set Loader=%ldr_realme%\prog_firehose_ddr_Realme6Pro_Realme7Pro_Realme8Pro.elf
 set MemoryName=ufs
 
@@ -38,7 +38,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=REALME 7 PRO RMX 2170
+set Model=7 PRO RMX 2170
 set Loader=%ldr_realme%\prog_firehose_ddr_Realme6Pro_Realme7Pro_Realme8Pro.elf
 set MemoryName=ufs
 
@@ -50,7 +50,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=REALME 7i RMX 2103
+set Model=7i RMX 2103
 set Loader=%ldr_realme%\prog_firehose_ddr_Realme7iRMX2103_Realme9RMX3521.elf
 set MemoryName=ufs
 
@@ -62,7 +62,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=REALME 8PRO RMX 3081
+set Model=8PRO RMX 3081
 set Loader=%ldr_realme%\prog_firehose_ddr_Realme6Pro_Realme7Pro_Realme8Pro.elf
 set MemoryName=ufs
 
@@ -93,7 +93,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=REALME 9 RMX 3521
+set Model=9 RMX 3521
 set Loader=%ldr_realme%\prog_firehose_ddr_Realme6Pro_Realme7Pro_Realme8Pro.elf
 set MemoryName=ufs
 
@@ -105,7 +105,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=REALME C15 RMX 2195
+set Model=C15 RMX 2195
 set Loader=%ldr_realme%\prog_firehose_ddr_RealmeC15RMX2195_RealmeC17_RMX2101.elf
 set MemoryName=emmc
 
@@ -117,7 +117,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=REALME C17 RMX 2101
+set Model=C17 RMX 2101
 set Loader=%ldr_realme%\prog_firehose_ddr_RealmeC15RMX2195_RealmeC17_RMX2101.elf
 set MemoryName=ufs
 

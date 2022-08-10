@@ -60,8 +60,8 @@ echo.
 
 :: Check for the pressed button 
 if %errorlevel%==1 (
-del /F /Q %~dp2assets\manual-loader\*.*ELF >nul 2>&1
-del /F /Q %~dp2assets\manual-loader\*.*MBN >nul 2>&1
+del /F /Q %~dp2assets\manual-loader\*.*ELF >nul
+del /F /Q %~dp2assets\manual-loader\*.*MBN >nul
 echo. INFO ! Please copy one firehose loader proggrammer *ELF or *MBN file
 echo.        to ~\Qualcomm-Tool\assets\manual-loader folder.
 echo. 

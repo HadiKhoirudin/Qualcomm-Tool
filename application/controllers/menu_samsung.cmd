@@ -26,7 +26,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=SAMSUNG SM-A015F
+set Model=SM-A015F
 set Loader=%ldr_samsung%\SM-A015F_loader_8937.mbn
 set MemoryName=emmc
 
@@ -38,7 +38,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=SAMSUNG SM-A025F
+set Model=SM-A025F
 set Loader=%ldr_samsung%\SM-A025F_loader_8937.mbn
 set MemoryName=emmc
 
@@ -50,7 +50,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=SAMSUNG SM-A115A
+set Model=SM-A115A
 set Loader=%ldr_samsung%\SM-A115A_loader_8953.mbn
 set MemoryName=emmc
 
@@ -62,7 +62,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=SAMSUNG SM-A115F
+set Model=SM-A115F
 set Loader=%ldr_samsung%\SM-M115F_loader_8953.mbn
 set MemoryName=ufs
 
@@ -94,7 +94,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=SAMSUNG SM-A115U
+set Model=SM-A115U
 set Loader=%ldr_samsung%\SM-A115U_loader_8953.mbn
 set MemoryName=emmc
 
@@ -106,7 +106,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=SAMSUNG SM-A705F
+set Model=SM-A705F
 set Loader=%ldr_samsung%\SM-A705F_loader_ddr.mbn
 set MemoryName=ufs
 
@@ -118,7 +118,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=SAMSUNG SM-J415F
+set Model=SM-J415F
 set Loader=%ldr_samsung%\SM-J415F_loader_8917.mbn
 set MemoryName=ufs
 
@@ -130,7 +130,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=SAMSUNG SM-J610F
+set Model=SM-J610F
 set Loader=%ldr_samsung%\SM-J610F_loader_8917.mbn
 set MemoryName=ufs
 
@@ -161,7 +161,7 @@ echo.%msgw2%
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=SAMSUNG SM-M025F
+set Model=SM-M025F
 set Loader=%ldr_samsung%\SM-M025F_loader_8953.mbn
 set MemoryName=emmc
 
@@ -173,7 +173,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=SAMSUNG SM-M115F
+set Model=SM-M115F
 set Loader=%ldr_samsung%\SM-M115F_loader_8953.mbn
 set MemoryName=emmc
 

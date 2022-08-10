@@ -28,7 +28,7 @@ echo.
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=OPPO A33 CPH 2137
+set Model=A33 CPH 2137
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_A33_A53_A53s.elf
 set MemoryName=emmc
 
@@ -40,7 +40,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=OPPO A53 CPH 2127
+set Model=A53 CPH 2127
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_A33_A53_A53s.elf
 set MemoryName=ufs
 
@@ -52,7 +52,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=OPPO A53s CPH 2139
+set Model=A53s CPH 2139
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_A33_A53_A53s.elf
 set MemoryName=emmc
 
@@ -64,7 +64,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=OPPO A73 CPH 2099
+set Model=A73 CPH 2099
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_Reno4NewSec2021CPH2113_Reno4ProCPH2109_Reno5CPH2159_Reno4G_Reno6CPH2235.elf
 set MemoryName=ufs
 
@@ -96,7 +96,7 @@ echo.
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=OPPO A74 CPH 2219
+set Model=A74 CPH 2219
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_Reno4NewSec2021CPH2113_Reno4ProCPH2109_Reno5CPH2159_Reno4G_Reno6CPH2235.elf
 set MemoryName=ufs
 
@@ -108,7 +108,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=OPPO A76 CPH 2375
+set Model=A76 CPH 2375
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_Reno4NewSec2021CPH2113_Reno4ProCPH2109_Reno5CPH2159_Reno4G_Reno6CPH2235.elf
 set MemoryName=ufs
 
@@ -120,7 +120,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=OPPO A95 CPH 2365
+set Model=A95 CPH 2365
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_Reno4NewSec2021CPH2113_Reno4ProCPH2109_Reno5CPH2159_Reno4G_Reno6CPH2235.elf
 set MemoryName=ufs
 
@@ -132,7 +132,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=OPPO F17 CPH 2095
+set Model=F17 CPH 2095
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_Reno4NewSec2021CPH2113_Reno4ProCPH2109_Reno5CPH2159_Reno4G_Reno6CPH2235.elf
 set MemoryName=ufs
 
@@ -165,7 +165,7 @@ echo.
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=OPPO F19 CPH 2219
+set Model=F19 CPH 2219
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_Reno4NewSec2021CPH2113_Reno4ProCPH2109_Reno5CPH2159_Reno4G_Reno6CPH2235.elf
 set MemoryName=ufs
 
@@ -177,7 +177,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=OPPO F21 PRO CPH 2363
+set Model=F21 PRO CPH 2363
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_Reno4NewSec2021CPH2113_Reno4ProCPH2109_Reno5CPH2159_Reno4G_Reno6CPH2235.elf
 set MemoryName=ufs
 
@@ -189,7 +189,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=OPPO RENO 4 OLD SEC 2019 CPH 2113
+set Model=RENO 4 OLD SEC 2019 CPH 2113
 set Loader=%ldr_oppo%\prog_firehose_ddr_OppoReno4OldSec2019.mbn
 set MemoryName=ufs
 
@@ -200,7 +200,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=OPPO RENO 4 NEW SEC 2021 CPH 2113
+set Model=RENO 4 NEW SEC 2021 CPH 2113
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_Reno4NewSec2021CPH2113_Reno4ProCPH2109_Reno5CPH2159_Reno4G_Reno6CPH2235.elf
 set MemoryName=ufs
 
@@ -234,7 +234,7 @@ echo.
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=OPPO RENO 4 PRO CPH 2109
+set Model=RENO 4 PRO CPH 2109
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_Reno4NewSec2021CPH2113_Reno4ProCPH2109_Reno5CPH2159_Reno4G_Reno6CPH2235.elf
 set MemoryName=ufs
 
@@ -246,7 +246,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=OPPO RENO 5 CPH 2159
+set Model=RENO 5 CPH 2159
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_Reno4NewSec2021CPH2113_Reno4ProCPH2109_Reno5CPH2159_Reno4G_Reno6CPH2235.elf
 set MemoryName=ufs
 
@@ -258,7 +258,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==3 (
 
 :: Set-Up Device Configuration
-set Model=OPPO RENO 6 CPH 2235
+set Model=RENO 6 CPH 2235
 set Loader=%ldr_oppo%\prog_firehose_ddr_Oppo_Reno4NewSec2021CPH2113_Reno4ProCPH2109_Reno5CPH2159_Reno4G_Reno6CPH2235.elf
 set MemoryName=ufs
 
@@ -269,7 +269,7 @@ call %~dp2application\views\process\exec.cmd %Devices% %Loader% %MemoryName%
 if %errorlevel%==4 (
 
 :: Set-Up Device Configuration
-set Model=OPPO RENO 7 CPH 2363
+set Model=RENO 7 CPH 2363
 set Loader=%ldr_oppo%\prog_firehose_ddr_OppoReno7CPH2363_OppoA73CPH2099_OppoA74CPH2119_OppoA76CPH2375_OppoA95CPH2365_OppoF17CPH2095_OppoF19CPH2219_OppoF21PRO.elf
 set MemoryName=ufs
 

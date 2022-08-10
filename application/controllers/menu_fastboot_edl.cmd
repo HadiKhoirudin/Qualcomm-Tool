@@ -18,9 +18,15 @@ echo.
 
 
 :: Check for the pressed button 
-if %errorlevel%==1 %xiaomiedl% reboot-edl
+if %errorlevel%==1 (
+   %xiaomiedl% reboot-edl
+   call %menu_xiaomi%
+)
 
-if %errorlevel%==2 %vivoedl% reboot-edl
+if %errorlevel%==2 (
+   %vivoedl% reboot-edl
+   call %menu_vivo%
+)
 
 if %errorlevel%==3 call %main%
 goto %main%
