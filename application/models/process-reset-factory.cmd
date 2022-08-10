@@ -118,7 +118,7 @@ IF "%Devices%" == "XIAOMI" (
     set "line=!line:*config =!
     set /a "result_config=!line:~1!" 2>nul
     )
-        IF "%result_config%" == "1" (for /F "Tokens=7 skip=1 " %%b in ('findstr /I "config" %cache%\partition') do (echo.Partition Config Sector    : %%b))
+        IF "%result_config%" == "1" (for /F "Tokens=7 skip=1 " %%b in ('findstr /I "config" %cache%\partition') do (echo.Partition Config Sector    : %%b)
             ) ELSE (
                 %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
