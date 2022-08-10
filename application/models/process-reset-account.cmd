@@ -92,7 +92,7 @@ IF "%Devices%" == "XIAOMI" (
             %cecho% {0a}Erasing MiCloud...{0f}      [OK]
             echo.
             ) ELSE (
-                %cecho% {04}Error %MemoryName% damaged! {0f}
+                %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
             )
 )
@@ -116,7 +116,7 @@ IF "%Devices%" == "SAMSUNG" (
             %cecho% {0a}Erasing Account...{0f}      [OK]
             echo.
             ) ELSE (
-                %cecho% {04}Error %MemoryName% damaged! {0f}
+                %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
             )
 )

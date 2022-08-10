@@ -19,7 +19,7 @@ IF "%Devices%" == "OPPO" (
             %cecho% {0a}Relocking Boot Loader...{0f}     [OK]
             echo.
             ) ELSE (
-                %cecho% {04}Error %MemoryName% damaged! {0f}
+                %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
             )
 
@@ -44,7 +44,7 @@ IF "%Devices%" == "REALME" (
             %cecho% {0a}Relocking Boot Loader...{0f}     [OK]
             echo.
             ) ELSE (
-                %cecho% {04}Error %MemoryName% damaged! {0f}
+                %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
             )
 
@@ -69,7 +69,7 @@ IF "%Devices%" == "VIVO" (
             %cecho% {0a}Relocking Boot Loader...{0f}     [OK]
             echo.
             ) ELSE (
-                %cecho% {04}Error %MemoryName% damaged! {0f}
+                %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
             )
 
@@ -95,7 +95,7 @@ IF "%Devices%" == "XIAOMI" (
             %cecho% {0a}Relocking Boot Loader...{0f}     [OK]
             echo.
             ) ELSE (
-                %cecho% {04}Error %MemoryName% damaged! {0f}
+                %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
             )
 

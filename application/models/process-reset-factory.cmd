@@ -30,7 +30,7 @@ IF "%Devices%" == "OPPO" (
             echo.
         )
             ) ELSE (
-                %cecho% {04}Error %MemoryName% damaged! {0f}
+                %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
             )
 )
@@ -66,7 +66,7 @@ IF "%Devices%" == "REALME" (
             echo.
         )
             ) ELSE (
-                %cecho% {04}Error %MemoryName% damaged! {0f}
+                %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
             )
 )
@@ -102,7 +102,7 @@ IF "%Devices%" == "VIVO" (
             echo.
         )
             ) ELSE (
-                %cecho% {04}Error %MemoryName% damaged! {0f}
+                %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
             )
 )
@@ -162,7 +162,7 @@ IF "%Devices%" == "XIAOMI" (
             echo.
         )
             ) ELSE (
-                %cecho% {04}Error %MemoryName% damaged! {0f}
+                %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
             )
 )
@@ -200,7 +200,7 @@ IF "%Devices%" == "SAMSUNG" (
             echo.
         )
             ) ELSE (
-                %cecho% {04}Error %MemoryName% damaged! {0f}
+                %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
             )
 )
@@ -235,7 +235,7 @@ IF "%Devices%" == "OTHER" (
             echo.
         )
             ) ELSE (
-                %cecho% {04}Error %MemoryName% damaged! {0f}
+                %cecho% {04}Error please disconnect battery and try again! {0f}
                 echo.
             )
 )
