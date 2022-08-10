@@ -11,7 +11,7 @@ IF "%Devices%" == "REALME" (
     )
         IF "%result_devinfo%" == "1" (for /F "Tokens=7 " %%d in ('findstr /I "devinfo" %cache%\partition') do (echo.Partition Devinfo sector   : %%d
             type %xml_devinfo_path%\REALME-unlock-bl-patch.xml | %repl% "(start_sector=\q).*?(\q.*>)" "$1%%d$2" xi >%cache%\patch.xml)
-            %sleep% 1
+            
             %emmcdl% -p %USBComPort% -f %Loader% -d devinfo %backup_devinfo% -memoryname %MemoryName% >nul
             %cecho% {0a}Backing-up Devinfo...   {0f}[OK]
             echo.
@@ -36,7 +36,7 @@ IF "%Devices%" == "OPPO" (
     )
         IF "%result_devinfo%" == "1" (for /F "Tokens=7 " %%d in ('findstr /I "devinfo" %cache%\partition') do (echo.Partition Devinfo sector   : %%d
             type %xml_devinfo_path%\OPPO-unlock-bl-patch.xml | %repl% "(start_sector=\q).*?(\q.*>)" "$1%%d$2" xi >%cache%\patch.xml)
-            %sleep% 1
+            
             %emmcdl% -p %USBComPort% -f %Loader% -d devinfo %backup_devinfo% -memoryname %MemoryName% >nul
             %cecho% {0a}Backing-up Devinfo...   {0f}[OK]
             echo.
@@ -62,7 +62,7 @@ IF "%Devices%" == "VIVO" (
     )
         IF "%result_devinfo%" == "1" (for /F "Tokens=7 " %%d in ('findstr /I "devinfo" %cache%\partition') do (echo.Partition Devinfo sector   : %%d
             type %xml_devinfo_path%\VIVO-unlock-bl-patch.xml | %repl% "(start_sector=\q).*?(\q.*>)" "$1%%d$2" xi >%cache%\patch.xml)
-            %sleep% 1
+            
             %emmcdl% -p %USBComPort% -f %Loader% -d devinfo %backup_devinfo% -memoryname %MemoryName% >nul
             %cecho% {0a}Backing-up Devinfo...   {0f}[OK]
             echo.
@@ -88,7 +88,7 @@ IF "%Devices%" == "XIAOMI" (
     )
         IF "%result_devinfo%" == "1" (for /F "Tokens=7 " %%d in ('findstr /I "devinfo" %cache%\partition') do (echo.Partition Devinfo sector   : %%d
             type %xml_devinfo_path%\XIAOMI-unlock-bl-patch.xml | %repl% "(start_sector=\q).*?(\q.*>)" "$1%%d$2" xi >%cache%\patch.xml)
-            %sleep% 1
+            
             %emmcdl% -p %USBComPort% -f %Loader% -d devinfo %backup_devinfo% -memoryname %MemoryName% >nul
             %cecho% {0a}Backing-up Devinfo...   {0f}[OK]
             echo.

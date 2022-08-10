@@ -31,8 +31,24 @@ echo.
 echo.
 
 :: Get Partition Map
+%emmcdl% -p %USBComPort% -info >%cache%\info
+for /F "Tokens=2 " %%x in ('findstr /I "SerialNumber" %cache%\info') do (
+%cecho% IDS SN : {0b} %%x {0f}
+echo.
+)
+
+for /F "Tokens=2 " %%y in ('findstr /I "MSM_HW_ID" %cache%\info') do (
+%cecho% MSM HW : {0b} %%y {0f}
+echo.
+)
+
+for /F "Tokens=2 delims=2 " %%z in ('findstr /I "OEM_PK_HASH" %cache%\info') do (
+%cecho% OEM PK : {0b} %%z {0f}
+echo.
+)
+echo.
+
 %emmcdl% -p %USBComPort% -f %Loader% -gpt -memoryname %MemoryName% >%cache%\partition
-%sleep% 1
 %cecho% {0b}Configuring Firehose...{0f} [OK]
 echo.
 

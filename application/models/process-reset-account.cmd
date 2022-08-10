@@ -9,7 +9,7 @@ IF "%Devices%" == "OPPO" (
       set /a "result_frp=!line:~1!" 2>nul
     )
         IF "%result_frp%" == "1" (for /F "Tokens=7 " %%d in ('findstr /I "frp" %cache%\partition') do (echo.Partition FRP Sector       : %%d)
-            %sleep% 1
+            
             %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
             %cecho% {0a}Erasing FRP...{0f}          [OK]
             echo.
@@ -27,7 +27,7 @@ IF "%Devices%" == "REALME" (
       set /a "result_frp=!line:~1!" 2>nul
     )
         IF "%result_frp%" == "1" (for /F "Tokens=7 " %%d in ('findstr /I "frp" %cache%\partition') do (echo.Partition FRP Sector       : %%d)
-            %sleep% 1
+            
             %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
             %cecho% {0a}Erasing FRP...{0f}          [OK]
             echo.
@@ -45,7 +45,7 @@ IF "%Devices%" == "VIVO" (
       set /a "result_frp=!line:~1!" 2>nul
     )
         IF "%result_frp%" == "1" (for /F "Tokens=7 " %%d in ('findstr /I "frp" %cache%\partition') do (echo.Partition FRP Sector       : %%d)
-            %sleep% 1
+            
             %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
             %cecho% {0a}Erasing FRP...{0f}          [OK]
             echo.
@@ -63,7 +63,7 @@ IF "%Devices%" == "XIAOMI" (
     set /a "result_config=!line:~1!" 2>nul
     )
         IF "%result_config%" == "1" (for /F "Tokens=7 skip=1 " %%b in ('findstr /I "config" %cache%\partition') do (echo.Partition Config Sector    : %%b)
-            %sleep% 1
+            
             %emmcdl% -p %USBComPort% -f %Loader% -d config %backup_config% -memoryname %MemoryName% >nul
             %cecho% {0a}Backing-up config...{0f}    [OK]
             echo.
@@ -80,7 +80,7 @@ IF "%Devices%" == "XIAOMI" (
     set /a "result_persist=!line:~1!" 2>nul
     )
         IF "%result_persist%" == "1" (for /F "Tokens=7 " %%d in ('findstr /I "persist" %cache%\partition') do (echo.Partition Persist Sector   : %%d)
-            %sleep% 1
+            
             %emmcdl% -p %USBComPort% -f %Loader% -d persist %backup_persist% -memoryname %MemoryName% >nul
             %cecho% {0a}Backing-up persist...{0f}   [OK]
             echo.
@@ -108,7 +108,7 @@ IF "%Devices%" == "SAMSUNG" (
     set /a "result_persistent=!line:~1!" 2>nul
     )
         IF "%result_persistent%" == "1" (for /F "Tokens=7 skip=1 " %%b in ('findstr /I "persistent" %cache%\partition') do (echo.Partition Persistent Sector: %%b)
-            %sleep% 1
+            
             %emmcdl% -p %USBComPort% -f %Loader% -d persistent %backup_persistent% -memoryname %MemoryName% >nul
             %cecho% {0a}Backing-up persistent...{0f}[OK]
             echo.
@@ -131,7 +131,7 @@ IF "%Devices%" == "OTHER" (
       set /a "result_frp=!line:~1!" 2>nul
     )
         IF "%result_frp%" == "1" (for /F "Tokens=7 " %%d in ('findstr /I "frp" %cache%\partition') do (echo.Partition FRP Sector       : %%d)
-            %sleep% 1
+            
             %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
             %cecho% {0a}Erasing FRP...{0f}          [OK]
             echo.

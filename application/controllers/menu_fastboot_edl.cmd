@@ -23,4 +23,4 @@ if %errorlevel%==1 %xiaomiedl% reboot-edl
 if %errorlevel%==2 %vivoedl% reboot-edl
 
 if %errorlevel%==3 call %main%
-goto Menu_Manual_Loader_1
+goto %main%
