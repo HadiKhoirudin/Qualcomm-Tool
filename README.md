@@ -1,7 +1,7 @@
 # Qualcomm-Tool
 For educational purposes, learn how a batch script can handle emmcdl process.
 
-[![image-2022-08-03-123649441.png](https://i.postimg.cc/gjhSVB7L/image-2022-08-05-194549049.png)](https://postimg.cc/p52JxkRP)
+[![image-2022-08-11-034516441.png](https://i.postimg.cc/rppvdfDk/image-2022-08-11-034516441.png)](https://postimg.cc/fV6Hpj72)
 
 ## Recent supported list :
 
@@ -150,4 +150,11 @@ get it on YouTube at HadiK IT Channel.
 + Added Unlock and Relock Boot Loader function
 + Added Redmi Note 7 Lavender
 - Remove Redmi 5a Riva
+```
+
+## Recent changes list V3.0 RC5 :
+
+```
++ Added new autogenerate patch function
++ Fix some bugs
 ```
