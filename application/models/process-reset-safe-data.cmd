@@ -1,8 +1,5 @@
 @echo off
 
-:: Get Partition Info
-%emmcdl% -p %USBComPort% -f %Loader% -gpt -memoryname %MemoryName% >%cache%\partition
-
 IF "%Devices%" == "OPPO" (
 ::: Partition FRP
     %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
