@@ -7,7 +7,7 @@ cls
 set dialog=***     S E L E C T                                 D E V I C E     ***
 call %page%
 call %box%
-Call %button%  8 13 "      XIAOMI      " 41 13 "       VIVO       " 29 18 "    BACK    " # Press
+call %button%  8 16 "      XIAOMI      " 42 16 "       VIVO       " 28 19 "    BACK    " # Press
 echo.
 echo.
 echo.

@@ -10,6 +10,8 @@ echo.
 echo.
 echo.
 echo.
+echo.
+echo.
 echo.------------------------------------------------------------------------
 echo.Selected Device : %Devices% %Model%
 echo.Memory Name     : %MemoryName%

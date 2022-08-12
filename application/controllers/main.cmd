@@ -9,7 +9,7 @@
 set dialog=***                            SELECT MENU                           ***
 call %page%
 call %box%
-Call %button%  8 12 "     OPPO     " 27 12 "    REALME    " 46 12 "     VIVO     " 8 15 "    XIAOMI    " 46 15 "    SAMSUNG   " 27 18 "INSTALL DRIVER" 8 18 " FASTBOOT EDL " 46 18 " AUTO  LOADER " 46 21 "MANUAL  LOADER" # Press
+call %button%  8 13 "     OPPO     " 27 13 "    REALME    " 46 13 "     VIVO     " 8 16 "    XIAOMI    " 46 16 "    SAMSUNG   " 27 19 "INSTALL DRIVER" 8 19 " FASTBOOT EDL " 46 19 " AUTO  LOADER " 46 22 "MANUAL  LOADER" # Press
 echo.
 echo.
 echo.

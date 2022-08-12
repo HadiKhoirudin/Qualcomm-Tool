@@ -11,7 +11,8 @@ set totalpages=4
 set dialog=***                  V I V O    P A G E   1  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 "VIVO V9      (PD1730F)" 42 12 "VIVO V9 Yth (PD1730BF)" 5 15 "VIVO V11 PRO (PD1814F)" 42 15 "VIVO Y91/i   (PD1818F)" 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+call %button%  5 13 "VIVO V9      (PD1730F)" 42 13 "VIVO V9 Yth (PD1730BF)" 5 16 "VIVO V11 PRO (PD1814F)" 42 16 "VIVO Y91/i   (PD1818F)" 19 19 "    BACK    "  38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -80,7 +81,8 @@ goto Menu_Vivo_1
 set dialog=***                  V I V O    P A G E   2  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 "VIVO Y53/L   (PD1628F)" 42 12 "VIVO Y65    (PD1621BF)" 5 15 "VIVO Y71    (PD1818EF)" 42 15 "VIVO Y55/L   (PD1510F)" 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+call %button%  5 13 "VIVO Y53/L   (PD1628F)" 42 13 "VIVO Y65    (PD1621BF)" 5 16 "VIVO Y71    (PD1818EF)" 42 16 "VIVO Y55/L   (PD1510F)" 19 19 "    BACK    "  38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -150,7 +152,8 @@ goto Menu_Vivo_2
 set dialog=***                  V I V O    P A G E   3  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  7 12 "VIVO Y93     (PD1818F)" 7 15 "VIVO IQOO UI (PD2023F)" 42 12 "VIVO Y95 (PD1818F)" 42 15 "VIVO Y20 OLD SEC  " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+call %button%  7 13 "VIVO Y93     (PD1818F)" 7 16 "VIVO IQOO UI (PD2023F)" 42 13 "VIVO Y95 (PD1818F)" 42 16 "VIVO Y20 OLD SEC  " 19 19 "    BACK    " 38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -215,7 +218,8 @@ goto Menu_Vivo_3
 set dialog=***                  V I V O    P A G E   4  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  7 12 "VIVO Y20 NEW SEC  " 7 15 "VIVO V20 NEW SEC  " 42 12 "VIVO Y21e (PD2107F)" 42 15 "VIVO Y50T (PD2023E)" 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+call %button%  7 13 "VIVO Y20 NEW SEC  " 7 16 "VIVO V20 NEW SEC  " 42 13 "VIVO Y21e (PD2107F)" 42 16 "VIVO Y50T (PD2023E)" 19 19 "    BACK    " 38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.

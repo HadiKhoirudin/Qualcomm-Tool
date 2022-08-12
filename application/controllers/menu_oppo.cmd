@@ -12,7 +12,8 @@ set totalpages=4
 set dialog=***                  O P P O    P A G E   1  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 "OPPO A33 (CPH 2137) " 43 12 "OPPO A53 (CPH 2127) " 5 15 "OPPO A53s (CPH 2139)" 43 15 "OPPO A73 (CPH 2099) " 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+call %button%  5 13 "OPPO A33 (CPH 2137) " 43 13 "OPPO A53 (CPH 2127) " 5 16 "OPPO A53s (CPH 2139)" 43 16 "OPPO A73 (CPH 2099) " 19 19 "    BACK    "  38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -81,7 +82,8 @@ goto Menu_Oppo_1
 set dialog=***                  O P P O    P A G E   2  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 "OPPO A74 (CPH 2219)" 44 12 "OPPO A76 (CPH 2375)" 5 15 "OPPO A95 (CPH 2365)" 44 15 "OPPO F17 (CPH 2095)" 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+call %button%  5 13 "OPPO A74 (CPH 2219)" 44 13 "OPPO A76 (CPH 2375)" 5 16 "OPPO A95 (CPH 2365)" 44 16 "OPPO F17 (CPH 2095)" 19 19 "    BACK    "  38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -150,7 +152,8 @@ goto Menu_Oppo_2
 set dialog=***                  O P P O    P A G E   3  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 "OPPO F19 (CPH 2219)     " 39 12 "OPPO F21 PRO (CPH 2219) " 5 15 "OPPO RENO 4 OLD SEC 2019" 39 15 "OPPO RENO 4 NEW SEC 2021" 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+call %button%  5 13 "OPPO F19 (CPH 2219)     " 39 13 "OPPO F21 PRO (CPH 2219) " 5 16 "OPPO RENO 4 OLD SEC 2019" 39 16 "OPPO RENO 4 NEW SEC 2021" 19 19 "    BACK    "  38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -219,7 +222,8 @@ goto Menu_Oppo_3
 set dialog=***                  O P P O    P A G E   4  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 "OPPO RENO 4 PRO (CPH2109)" 41 12 "OPPO RENO 5 (CPH2159) " 5 15 "OPPO RENO 6     (CPH2235)" 41 15 "OPPO RENO 7 (CPH2363) " 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+call %button%  5 13 "OPPO RENO 4 PRO (CPH2109)" 41 13 "OPPO RENO 5 (CPH2159) " 5 16 "OPPO RENO 6     (CPH2235)" 41 16 "OPPO RENO 7 (CPH2363) " 19 19 "    BACK    "  38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.

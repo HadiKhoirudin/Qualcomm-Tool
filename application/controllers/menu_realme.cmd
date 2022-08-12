@@ -11,7 +11,8 @@ set totalpages=2
 set dialog=***               R E A L M E   P A G E   1  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 "REALME 6 PRO (RMX 2061)" 40 12 "REALME 7 PRO (RMX 2170)" 5 15 "REALME 7i    (RMX 2103)" 40 15 "REALME 8 PRO (RMX 3081)" 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+call %button%  5 13 "REALME 6 PRO (RMX 2061)" 40 13 "REALME 7 PRO (RMX 2170)" 5 16 "REALME 7i    (RMX 2103)" 40 16 "REALME 8 PRO (RMX 3081)" 19 19 "    BACK    " 38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -78,7 +79,8 @@ goto Menu_Realme_1
 set dialog=***               R E A L M E   P A G E   2  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 "REALME 9   (RMX 3521)" 40 12 "REALME C15 (RMX 2195)" 5 15 "REALME C17 (RMX 2101)" 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+call %button%  5 13 "REALME 9   (RMX 3521)" 40 13 "REALME C15 (RMX 2195)" 5 16 "REALME C17 (RMX 2101)" 19 19 "    BACK    " 38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.

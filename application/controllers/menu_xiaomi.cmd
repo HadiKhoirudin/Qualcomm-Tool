@@ -11,7 +11,8 @@ set totalpages=8
 set dialog=***               X I A O M I   P A G E   1  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  10 12 "XIAOMI MI  6 PRO" 42 12 "XIAOMI MI  8 EE" 10 15 "XIAOMI MI  8 SE " 42 15 "XIAOMI MI  8 UD" 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+call %button%  10 13 "XIAOMI MI  6 PRO" 42 13 "XIAOMI MI  8 EE" 10 16 "XIAOMI MI  8 SE " 42 16 "XIAOMI MI  8 UD" 19 19 "    BACK    "  38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -79,7 +80,8 @@ goto Menu_Xiaomi_1
 set dialog=***               X I A O M I   P A G E   2  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  8 12 "XIAOMI MI A2     " 42 12 "XIAOMI MI A2 LITE" 8 15 "XIAOMI MI MAX 2  " 42 15 "XIAOMI MI MAX 3  " 19 18 "    BACK    "  38 18 "    NEXT    " # Press
+call %button%  8 13 "XIAOMI MI A2     " 42 13 "XIAOMI MI A2 LITE" 8 16 "XIAOMI MI MAX 2  " 42 16 "XIAOMI MI MAX 3  " 19 19 "    BACK    "  38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -145,7 +147,8 @@ goto Menu_Xiaomi_1
 set dialog=***               X I A O M I   P A G E   3  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  7 12 " XIAOMI MI MIX    " 42 12 " XIAOMI MI MIX 2S " 7 15 " XIAOMI MI MIX 3  " 42 15 " XIAOMI MI NOTE 2 "  19 18 "    BACK    "  38 18 "    NEXT    " # Press
+call %button%  7 13 " XIAOMI MI MIX    " 42 13 " XIAOMI MI MIX 2S " 7 16 " XIAOMI MI MIX 3  " 42 16 " XIAOMI MI NOTE 2 "  19 19 "    BACK    "  38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -211,7 +214,8 @@ goto Menu_Xiaomi_3
 set dialog=***               X I A O M I   P A G E   4  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 " XIAOMI MI NOTE 3     " 42 12 " XIAOMI MI NOTE 5    " 5 15 " XIAOMI MI NOTE 5 PRO " 42 15 " XIAOMI MI NOTE 6 PRO "  19 18 "    BACK    "  38 18 "    NEXT    " # Press
+call %button%  5 13 " XIAOMI MI NOTE 3     " 42 13 " XIAOMI MI NOTE 5    " 5 16 " XIAOMI MI NOTE 5 PRO " 42 16 " XIAOMI MI NOTE 6 PRO "  19 19 "    BACK    "  38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -278,7 +282,8 @@ goto Menu_Xiaomi_4
 set dialog=***               X I A O M I   P A G E   5  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 " XIAOMI MI POCO F1    " 42 12 " XIAOMI MI POCO M2 PRO" 5 15 " XIAOMI MI POCO M3    " 42 15 " XIAOMI MI NOTE 8     " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+call %button%  5 13 " XIAOMI MI POCO F1    " 42 13 " XIAOMI MI POCO M2 PRO" 5 16 " XIAOMI MI POCO M3    " 42 16 " XIAOMI MI NOTE 8     " 19 19 "    BACK    " 38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -345,7 +350,8 @@ goto Menu_Xiaomi_5
 set dialog=***               X I A O M I   P A G E   6  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 " XIAOMI MI NOTE 9s    " 42 12 " XIAOMI REDMI 7      " 5 15 " XIAOMI REDMI NOTE 5A " 42 15 " XIAOMI REDMI NOTE 7 " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+call %button%  5 13 " XIAOMI MI NOTE 9s    " 42 13 " XIAOMI REDMI 7      " 5 16 " XIAOMI REDMI NOTE 5A " 42 16 " XIAOMI REDMI NOTE 7 " 19 19 "    BACK    " 38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -411,7 +417,8 @@ goto Menu_Xiaomi_6
 set dialog=***               X I A O M I   P A G E   7  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 " XIAOMI MI 9T        " 40 12 " XIAOMI MI 9 POWER      " 5 15 " XIAOMI MI NOTE 9 PRO" 40 15 " XIAOMI MI NOTE 9 PROMAX" 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+call %button%  5 13 " XIAOMI MI 9T        " 40 13 " XIAOMI MI 9 POWER      " 5 16 " XIAOMI MI NOTE 9 PRO" 40 16 " XIAOMI MI NOTE 9 PROMAX" 19 19 "    BACK    " 38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
@@ -477,7 +484,8 @@ goto Menu_Xiaomi_7
 set dialog=***               X I A O M I   P A G E   8  OF  %totalpages%                  ***
 call %page%
 call %box%
-Call %button%  5 12 " XIAOMI MI 10 LITE   " 40 12 " XIAOMI MI 11 T PRO     " 5 15 " XIAOMI MI K20 PRO   " 40 15 " XIAOMI MI PAD 4        " 19 18 "    BACK    " 38 18 "    NEXT    " # Press
+call %button%  5 13 " XIAOMI MI 10 LITE   " 40 13 " XIAOMI MI 11 T PRO     " 5 16 " XIAOMI MI K20 PRO   " 40 16 " XIAOMI MI PAD 4        " 19 19 "    BACK    " 38 19 "    NEXT    " # Press
+echo.
 echo.
 echo.
 echo.
