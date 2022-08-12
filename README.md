@@ -1,7 +1,7 @@
 # Qualcomm-Tool
 For educational purposes, learn how a batch script can handle emmcdl process.
 
-[![image-2022-08-11-034516441.png](https://i.postimg.cc/rppvdfDk/image-2022-08-11-034516441.png)](https://postimg.cc/fV6Hpj72) [![image-2022-08-11-034814046.png](https://i.postimg.cc/J7JZVmPf/image-2022-08-11-034814046.png)](https://postimg.cc/mhLt7xxj)
+[![image-2022-08-12-071751009.png](https://i.postimg.cc/Dfb5WbKV/image-2022-08-12-071751009.png)](https://postimg.cc/ThfnF1wQ)
 
 ## Recent supported list :
 
@@ -157,4 +157,40 @@ get it on YouTube at HadiK IT Channel.
 ```
 + Added new autogenerate patch function
 + Fix some bugs
++ Added Some Brand for Auto Loader Function
+	AMAZON
+	ASUS
+	BLACKBERRY
+	COOLPAD
+	FANCYMAKER
+	FOXCONN
+	GIONEE
+	HISENSE -> end of pg 1
+	HMD
+	HUAQIN
+	HUAWEI
+	LENOVO
+	LETV
+	LG
+	LONGCHEER -> end of pg 2
+	LYF
+	MEIZU
+	MICROMAX
+	MICROSOFT
+	MOTOROLA
+	NOKIA -> end of pg 3
+	ONEPLUS
+	OPPO
+	SAMSUNG
+	SHARP
+	SMARTISAN
+	SONY
+	TCL -> end of pg 4
+	TPLINK
+	VIVO
+	WINGTECH
+	XIAOMI
+	YULONG
+	ZTE
+	OTHER -> end of pg 4
 ```
