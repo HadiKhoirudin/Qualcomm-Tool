@@ -158,6 +158,7 @@ get it on YouTube at HadiK IT Channel.
 + Added new autogenerate patch function
 + Fix some bugs
 + Added Some Brand for Auto Loader Function
+  Just select Device Memory and Brand then go ahead.
   AMAZON
   ASUS
   BLACKBERRY
@@ -194,5 +195,4 @@ get it on YouTube at HadiK IT Channel.
   ZTE
   OTHER -> end of pg 4
 
-Just select Device Memory and Brand then go ahead.
 ```
