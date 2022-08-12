@@ -110,8 +110,8 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 ```
 in my video ... 
 get it on YouTube at HadiK IT Channel.
-https://www.youtube.com/c/hadikit?sub_confirmation=1
 ```
+https://www.youtube.com/c/hadikit?sub_confirmation=1
 
 ## Recent changes list V2.0 :
 
