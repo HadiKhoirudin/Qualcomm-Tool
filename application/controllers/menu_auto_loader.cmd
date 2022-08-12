@@ -311,4 +311,4 @@ echo.
 echo.          C  L  I  C  K      T  O      C  O  N  T  I  N  U  E
 
 %getinput% /m %Press% /h 72
-goto Menu_Auto_Loader_6
+goto Menu_Auto_Loader_2

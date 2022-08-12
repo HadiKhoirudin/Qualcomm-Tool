@@ -214,7 +214,7 @@ goto Menu_Xiaomi_3
 set dialog=***               X I A O M I   P A G E   4  OF  %totalpages%                  ***
 call %page%
 call %box%
-call %button%  5 13 " XIAOMI MI NOTE 3     " 42 13 " XIAOMI MI NOTE 5    " 5 16 " XIAOMI MI NOTE 5 PRO " 42 16 " XIAOMI MI NOTE 6 PRO "  19 19 "    BACK    "  38 19 "    NEXT    " # Press
+call %button%  5 13 " XIAOMI MI NOTE 3     " 42 13 " XIAOMI MI NOTE 5     " 5 16 " XIAOMI MI NOTE 5 PRO " 42 16 " XIAOMI MI NOTE 6 PRO "  19 19 "    BACK    "  38 19 "    NEXT    " # Press
 echo.
 echo.
 echo.
