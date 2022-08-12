@@ -158,39 +158,41 @@ get it on YouTube at HadiK IT Channel.
 + Added new autogenerate patch function
 + Fix some bugs
 + Added Some Brand for Auto Loader Function
-	AMAZON
-	ASUS
-	BLACKBERRY
-	COOLPAD
-	FANCYMAKER
-	FOXCONN
-	GIONEE
-	HISENSE -> end of pg 1
-	HMD
-	HUAQIN
-	HUAWEI
-	LENOVO
-	LETV
-	LG
-	LONGCHEER -> end of pg 2
-	LYF
-	MEIZU
-	MICROMAX
-	MICROSOFT
-	MOTOROLA
-	NOKIA -> end of pg 3
-	ONEPLUS
-	OPPO
-	SAMSUNG
-	SHARP
-	SMARTISAN
-	SONY
-	TCL -> end of pg 4
-	TPLINK
-	VIVO
-	WINGTECH
-	XIAOMI
-	YULONG
-	ZTE
-	OTHER -> end of pg 4
+  AMAZON
+  ASUS
+  BLACKBERRY
+  COOLPAD
+  FANCYMAKER
+  FOXCONN
+  GIONEE
+  HISENSE -> end of pg 1
+  HMD
+  HUAQIN
+  HUAWEI
+  LENOVO
+  LETV
+  LG
+  LONGCHEER -> end of pg 2
+  LYF
+  MEIZU
+  MICROMAX
+  MICROSOFT
+  MOTOROLA
+  NOKIA -> end of pg 3
+  ONEPLUS
+  OPPO
+  SAMSUNG
+  SHARP
+  SMARTISAN
+  SONY
+  TCL -> end of pg 4
+  TPLINK
+  VIVO
+  WINGTECH
+  XIAOMI
+  YULONG
+  ZTE
+  OTHER -> end of pg 4
+
+Just select Device Memory and Brand then go ahead.
 ```
