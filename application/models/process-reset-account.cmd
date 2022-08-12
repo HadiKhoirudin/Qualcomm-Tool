@@ -1,4 +1,180 @@
 @echo off
+IF "%Devices%" == "AMAZON" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "ASUS" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "BLACKBERRY" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "COOLPAD" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "FANCYMAKER" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "FOXCONN" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "GIONEE" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "HISENSE" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "HMD" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "HUAQIN" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "HUAWEI" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "LENOVO" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "LETV" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "LG" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "LONGCHEER" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "LYF" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "MEIZU" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "MICROMAX" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "MICROSOFT" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "MOTOROLA" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "NOKIA" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "ONEPLUS" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
 IF "%Devices%" == "OPPO" (
 ::: Partition FRP
     %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
@@ -15,7 +191,67 @@ IF "%Devices%" == "REALME" (
     echo.
 )
 
+IF "%Devices%" == "SAMSUNG" (
+::: Partition Config -> FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -d persistent -o %backup_persistent% -memoryname %MemoryName% >nul
+    %emmcdl% -p %USBComPort% -f %Loader% -e config -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Backing-up persistent...{0f}[OK]
+    echo.
+    %cecho% {0b}Erasing Account...{0f}      [OK]
+    echo.
+)
+
+
+IF "%Devices%" == "SHARP" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "SMARTISAN" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "SONY" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "TCL" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "TPLINK" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
 IF "%Devices%" == "VIVO" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
+    echo.
+)
+
+IF "%Devices%" == "WINGTECH" (
 ::: Partition FRP
     %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
 
@@ -43,15 +279,19 @@ IF "%Devices%" == "XIAOMI" (
     echo.
 )
 
+IF "%Devices%" == "YULONG" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
 
-IF "%Devices%" == "SAMSUNG" (
-::: Partition Config -> FRP
-    %emmcdl% -p %USBComPort% -f %Loader% -d persistent -o %backup_persistent% -memoryname %MemoryName% >nul
-    %emmcdl% -p %USBComPort% -f %Loader% -e config -memoryname %MemoryName% >nul
-
-    %cecho% {0b}Backing-up persistent...{0f}[OK]
+    %cecho% {0b}Erasing Account...{0f}[OK]
     echo.
-    %cecho% {0b}Erasing Account...{0f}      [OK]
+)
+
+IF "%Devices%" == "ZTE" (
+::: Partition FRP
+    %emmcdl% -p %USBComPort% -f %Loader% -e frp -memoryname %MemoryName% >nul
+
+    %cecho% {0b}Erasing Account...{0f}[OK]
     echo.
 )
 

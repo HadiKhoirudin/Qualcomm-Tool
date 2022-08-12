@@ -10,6 +10,7 @@ echo.                   A    S I M P L E    U N L O C K E R
 echo. ______________________________________________________________________
 %cecho% {0b}
 echo. Credit : 
+echo.          - nijel8        (EMMCDL SOURCE CODE - XDA SENIOR DEVELOPER)
 echo.          - Bjoern Kerler (QUALCOMM FIREHOSE ATTACKER SOURCE CODE)
 echo.          - Hary Sulteng  (GSM SULTENG)
 echo.          - Faizal Hamzah (THE FIREFOX FLASHER)

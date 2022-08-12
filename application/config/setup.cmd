@@ -10,6 +10,7 @@ set USBComPort=
 
 
 ::: Set-Up Assets
+set ldr_auto=%~dp2assets\devices\loaders\auto
 set ldr_oppo=%~dp2assets\devices\loaders\oppo
 set ldr_realme=%~dp2assets\devices\loaders\realme
 set ldr_vivo=%~dp2assets\devices\loaders\vivo
@@ -23,9 +24,9 @@ set xml_devinfo_path=%~dp2assets\resources\devinfo
 set userdata=%~dp2assets\resources\userdata\userdata.img
 
 ::: Set-Up Application
+set app=%~dp2Qualcomm-Tool-V3.0-RC5-[HadiK-IT].exe
 set cache=%~dp2application\cache
 set box=%~dp2application\views\template\box.cmd
-set browse_loader=%~dp2assets\input_file_manual_loader\
 set page=%~dp2application\views\template\page.cmd
 set setup=%~dp2application\config\setup.cmd
 set setup_backup=%~dp2application\config\setup_backup.cmd
@@ -71,15 +72,23 @@ set menu_vivo=%~dp2application\controllers\menu_vivo.cmd
 set menu_xiaomi=%~dp2application\controllers\menu_xiaomi.cmd
 set menu_samsung=%~dp2application\controllers\menu_samsung.cmd
 set menu_fastboot_edl=%~dp2application\controllers\menu_fastboot_edl.cmd
+set menu_auto_loader=%~dp2application\controllers\menu_auto_loader.cmd
 set menu_manual_loader=%~dp2application\controllers\menu_manual_loader.cmd
 
 
 
 ::: Set-Up Models
 set process=%~dp2application\models\process.cmd
+set process-devices-model=%~dp2application\models\process-devices-model.cmd
 set process-reset-factory=%~dp2application\models\process-reset-factory.cmd
 set process-reset-safe-data=%~dp2application\models\process-reset-safe-data.cmd
 set process-reset-account=%~dp2application\models\process-reset-account.cmd
 set process-reset-efs-imei=%~dp2application\models\process-efs-imei.cmd
 set process-unlock-bootloader=%~dp2application\models\process-unlock-bootloader.cmd
 set process-relock-bootloader=%~dp2application\models\process-relock-bootloader.cmd
+
+
+
+
+:: Cleanup
+call %cleanup%

@@ -1,7 +1,6 @@
 @echo off
 :: Set-Up Controllers - > Models
 set Menu=%menu_manual_loader%
-set Devices=GENERIC
 
 :Menu_Manual_Loader_1
 cls
@@ -21,7 +20,7 @@ echo.
 if %errorlevel%==1 (
 
 :: Set-Up Device Configuration
-set Model=MANUAL
+set Model=Manual Loader
 set MemoryName=emmc
 
 goto Menu_Manual_Loader_2
@@ -31,7 +30,7 @@ goto Menu_Manual_Loader_2
 if %errorlevel%==2 (
 
 :: Set-Up Device Configuration
-set Model=MANUAL
+set Model=Manual Loader
 set MemoryName=ufs
 
 goto Menu_Manual_Loader_2
@@ -60,8 +59,8 @@ echo.
 
 :: Check for the pressed button 
 if %errorlevel%==1 (
-del /F /Q %~dp2assets\manual-loader\*.*ELF >nul
-del /F /Q %~dp2assets\manual-loader\*.*MBN >nul
+del /F /Q %~dp2assets\manual-loader\*.*ELF >nul 2>&1
+del /F /Q %~dp2assets\manual-loader\*.*MBN >nul 2>&1
 echo. INFO ! Please copy one firehose loader proggrammer *ELF or *MBN file
 echo.        to ~\Qualcomm-Tool\assets\manual-loader folder.
 echo. 

@@ -1,7 +1,6 @@
 @echo off
 :: Set-Up Controllers - > Models
 set Menu=%menu_manual_loader%
-set Devices=GENERIC
 
 :Menu_Manual_Loader_1
 cls
@@ -20,11 +19,13 @@ echo.
 :: Check for the pressed button 
 if %errorlevel%==1 (
    %xiaomiedl% reboot-edl
+   %sleep% 3
    call %menu_xiaomi%
 )
 
 if %errorlevel%==2 (
    %vivoedl% reboot-edl
+   %sleep% 3
    call %menu_vivo%
 )
 
