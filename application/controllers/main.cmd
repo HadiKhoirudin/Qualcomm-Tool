@@ -13,7 +13,7 @@ call %button%  8 13 "     OPPO     " 27 13 "    REALME    " 46 13 "     VIVO    
 echo.
 echo.
 echo.
-echo.                     Version 3.0  RC5 - 12/08/2022                     
+echo.                     Version 3.0  RC5 - 25/08/2022                     
 echo. ______________________________________________________________________
 echo. - Added Auto Backup                   - Added Manual Loader Function
 echo. - Added Auto Generate Patch.xml       - Added Reset IMEI / EFS
