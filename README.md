@@ -6,9 +6,6 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 Password is : hadikit
 
 
-Please disable QuickEdit Mode in command prompt (CMD)
-[![GGPXR.gif](https://i.stack.imgur.com/GGPXR.gif)](https://i.stack.imgur.com/GGPXR.gif)
-
 ## Recent supported list :
 
 ### 1. OPPO -updated
@@ -228,3 +225,8 @@ https://www.youtube.com/c/hadikit?sub_confirmation=1
   OTHER -> end of pg 4
 
 ```
+
+
+
+Please disable QuickEdit Mode in command prompt (CMD)
+[![GGPXR.gif](https://i.stack.imgur.com/GGPXR.gif)](https://i.stack.imgur.com/GGPXR.gif)
