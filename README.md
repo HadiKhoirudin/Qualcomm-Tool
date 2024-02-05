@@ -3,6 +3,11 @@ For educational purposes, learn how a batch script can handle emmcdl process.
 
 [![image-2022-08-25-180400755.png](https://i.postimg.cc/cJqgLHGN/image-2022-08-25-180400755.png)](https://postimg.cc/FYZsPhKP)
 
+Password is : hadikit
+Please disable QuickEdit Mode in command prompt (CMD)
+
+[![GGPXR.gif](https://i.stack.imgur.com/GGPXR.gif)](https://i.stack.imgur.com/GGPXR.gif)
+
 ## Recent supported list :
 
 ### 1. OPPO -updated
